@@ -3,3 +3,4 @@ Label: ferryar.github.io/psyco-termux
 Codename: 21
 Architectures: arm
 Components: main
+SignWith: yes

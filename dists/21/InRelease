@@ -1,3 +1,6 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA512
+
 Origin: ferryar.github.io/psyco-termux
 Label: ferryar.github.io/psyco-termux
 Codename: 21
@@ -16,3 +19,17 @@ SHA256:
  a711545679319457b65ed1a52dc0c2f3b92012d119c13ffa30cea6398526c04a 81068 main/binary-arm/Packages
  b9d667c3f25605d7442cd5260e08eb839bd913b64aa10a30c603add6b2ae2b43 25421 main/binary-arm/Packages.gz
  70cc5e81e98e4594e604760093bee7830ba1affc9e0b5ca6ff635f33dd004f54 111 main/binary-arm/Release
+-----BEGIN PGP SIGNATURE-----
+
+iQGzBAEBCgAdFiEEEBkEYHGXuh8Jf+oucveulKvWwMMFAmDLsNMACgkQcveulKvW
+wMN3yQv/QbDl4nJzXqpMUorJBEo3/23p2eXt2KNjSUAStJMzp5wLOgtU2f9QdEQn
+uEAW263RqxsTnG4FT3QbAkdtpVnH/KkWziVhjpr0mB2W+HWf7NPWH0KAeM/oyvtM
+7iVZ/KpRTG0RoW5ZZuV2stLfbapjeQlLSZoBQPWkC8UIrYpIRoZxpCAyc1CR5iRC
+ybWZeTP3oPrRCB0RscisaLB1Y2V01/P9UpmNhcGipHFJfbvXgI/ZE1FCBLMJmbCL
+9/45yhA/8PtjWEEBq94nlyv91PfwTrR774PZZK42V1icn2jKLcrWQEUE5R447iqW
+q1SHSk/kuOJE3Z+l78AjeWteF320/fTRlJPo9AFJkVxGXRcLI8L9bVqVqlu6Tsxn
+jqE5pVV8fJR5WyYSc7DPwodyfcFSWw/dZQ/WxzV9UojlBEys/ZYONGqyjg8Hu2Gq
+ikSeTip4TNzBmMM8R2urJ7DhxiHg5Vb89B66X7uqM6jqQq4dQ2sK290NWknaKI7E
+x47Ki3tS
+=hOgo
+-----END PGP SIGNATURE-----

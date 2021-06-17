@@ -305,7 +305,7 @@ Description: Debian package management system
 
 Package: findutils
 Architecture: arm
-Installed-Size: 716
+Installed-Size: 684
 Maintainer: @termux
 Version: 4.8.0
 Homepage: https://www.gnu.org/software/findutils/
@@ -314,10 +314,10 @@ Essential: yes
 Priority: high
 Section: main
 Filename: pool/main/f/findutils/findutils_4.8.0_arm.deb
-Size: 243910
-SHA256: 9a12600fafe04d481cf3ef1fba219fa2c63d4c657748a466fb901eb2690b3cc7
-SHA1: 51efbbda03cc9e1a72d44f20d1c67f27ce83d523
-MD5sum: 1e8a7c3317496472619fd1cb98ee043a
+Size: 235238
+SHA256: 0527ff766b2b4bc6a21ec07be96ec8f29320e7d6c1e72abb3bc72e6b3fd40243
+SHA1: e9c9f3382262f7b6cfd6c95c96002611e3ad5a3e
+MD5sum: 3088b483ee5061ee1471646938b11519
 Description: Utilities to find files meeting specified criteria and perform various actions on the files which are found
 
 Package: fontconfig
@@ -438,6 +438,40 @@ SHA256: 51088ec1019be9d18809a949065c5ea0ab2676169533a249481146ff54c151e7
 SHA1: c9143ac6e02a4b4c23541fb6c8bad69826146790
 MD5sum: 3dd632722a65d7ba9d833d7a07002748
 Description: Static libraries for gawk
+
+Package: gdbm
+Architecture: arm
+Installed-Size: 336
+Maintainer: @termux
+Version: 1.19
+Homepage: https://www.gnu.org.ua/software/gdbm/
+Breaks: gdbm-dev
+Depends: readline
+Replaces: gdbm-dev
+Priority: high
+Section: main
+Filename: pool/main/g/gdbm/gdbm_1.19_arm.deb
+Size: 103468
+SHA256: 07152666a78910a157291a46efc3d9e7da734dfd3f3e05c39a8439cf740bd1d6
+SHA1: c107135f0dc0af76e86350c15a9356c073580a5c
+MD5sum: 200b4559ceb4c853f3fddcda3b65dd4d
+Description: Library of database functions that use extensible hashing
+
+Package: gdbm-static
+Architecture: arm
+Installed-Size: 100
+Maintainer: @termux
+Version: 1.19
+Homepage: https://www.gnu.org.ua/software/gdbm/
+Depends: gdbm (= 1.19)
+Priority: high
+Section: main
+Filename: pool/main/g/gdbm-static/gdbm-static_1.19_arm.deb
+Size: 24310
+SHA256: 47d89f55e0ad3c4ccb47e018e7bee6b390f0ec23a0c9b12eafb174a3c2c8ac2f
+SHA1: a29aa546739416b8b88ef0f5feae65207c1725bd
+MD5sum: b3747ca013909896b91add836307fcd8
+Description: Static libraries for gdbm
 
 Package: giflib
 Architecture: arm
@@ -1764,6 +1798,101 @@ SHA1: ac7033614da368d55796a204b31bfc4102c3b235
 MD5sum: 88d7ccd4a961e498a56f7dfb6a433eae
 Description: Static libraries for libwebp
 
+Package: libxau
+Architecture: arm
+Installed-Size: 60
+Maintainer: Leonid Pliushch <leonid.pliushch@gmail.com>
+Version: 1.0.9-9
+Homepage: https://xorg.freedesktop.org/
+Priority: high
+Section: main
+Filename: pool/main/libx/libxau/libxau_1.0.9-9_arm.deb
+Size: 8066
+SHA256: 5d8194b0715c45bcdeb259d34b0fd9d7c8c110fef598998566dd541eebc7b747
+SHA1: f501337b4ae7c6782bb4348eee133a814c8eae3a
+MD5sum: cd8de99ff30d179adcd74e4d6dae966c
+Description: X11 authorisation library
+
+Package: libxau-static
+Architecture: arm
+Installed-Size: 20
+Maintainer: Leonid Pliushch <leonid.pliushch@gmail.com>
+Version: 1.0.9-9
+Homepage: https://xorg.freedesktop.org/
+Depends: libxau (= 1.0.9-9)
+Priority: high
+Section: main
+Filename: pool/main/libx/libxau-static/libxau-static_1.0.9-9_arm.deb
+Size: 4668
+SHA256: 62dfa4fbef8bef8f008dd6a45fbe4b53a268f3d04a110618b3db8fa11172f755
+SHA1: 0d79f5caec0cec1a43566abe4c948928bbfc4eb3
+MD5sum: 27248fba8b789105305afc507fb1c24e
+Description: Static libraries for libxau
+
+Package: libxcb
+Architecture: arm
+Installed-Size: 12096
+Maintainer: Leonid Pliushch <leonid.pliushch@gmail.com>
+Version: 1.14-3
+Homepage: https://xcb.freedesktop.org/
+Depends: libxau, libxdmcp
+Recommends: xorg-xauth
+Priority: high
+Section: main
+Filename: pool/main/libx/libxcb/libxcb_1.14-3_arm.deb
+Size: 867458
+SHA256: c024dcc61acbb6682643af8e01e7d9582e4353f42d33a6f0bfa07957e2c7c501
+SHA1: 72aeb27ea6e2f9524d50477e63078d00ab373c93
+MD5sum: ff927f752d33c157649eb720ba28a655
+Description: X11 client-side library
+
+Package: libxcb-static
+Architecture: arm
+Installed-Size: 948
+Maintainer: Leonid Pliushch <leonid.pliushch@gmail.com>
+Version: 1.14-3
+Homepage: https://xcb.freedesktop.org/
+Depends: libxcb (= 1.14-3)
+Priority: high
+Section: main
+Filename: pool/main/libx/libxcb-static/libxcb-static_1.14-3_arm.deb
+Size: 129184
+SHA256: 461d3a36a8158cf56452e8178f6fda1b1ad9bd4148a76ce5bf8b955ccf8d861c
+SHA1: e023a8ff72dcbd40745197bd458cfe18c8557ea9
+MD5sum: 27e2d072cdca8c27d9a91cb73521fbe5
+Description: Static libraries for libxcb
+
+Package: libxdmcp
+Architecture: arm
+Installed-Size: 132
+Maintainer: Leonid Pliushch <leonid.pliushch@gmail.com>
+Version: 1.1.3-10
+Homepage: https://xorg.freedesktop.org/
+Priority: high
+Section: main
+Filename: pool/main/libx/libxdmcp/libxdmcp_1.1.3-10_arm.deb
+Size: 23124
+SHA256: f2a9fea8498b1c862df94d70194a4b033dbf4747c57cbf8b5321c48e045cbd18
+SHA1: 13f09b0f87887532205fe1d17248bb83be6822e5
+MD5sum: 52b7eeda6495d431b14b4d612ddf623d
+Description: X11 Display Manager Control Protocol library
+
+Package: libxdmcp-static
+Architecture: arm
+Installed-Size: 28
+Maintainer: Leonid Pliushch <leonid.pliushch@gmail.com>
+Version: 1.1.3-10
+Homepage: https://xorg.freedesktop.org/
+Depends: libxdmcp (= 1.1.3-10)
+Priority: high
+Section: main
+Filename: pool/main/libx/libxdmcp-static/libxdmcp-static_1.1.3-10_arm.deb
+Size: 6892
+SHA256: fbe86019fdf508e0bfc7268d5b84dab1e528d448fd3d12971904070585a16865
+SHA1: 77ed172c748c9e298038bed73185ccf580fc01ae
+MD5sum: f81b656b5aaff720e0d57ea11ff01cd3
+Description: Static libraries for libxdmcp
+
 Package: libxml2
 Architecture: arm
 Installed-Size: 5016
@@ -2358,6 +2487,56 @@ SHA1: d52e5f22395634fa83aa1ce5ae47fdcb765380f9
 MD5sum: 43bbff5eeacc2ba9de662254538094d5
 Description: Font family based on the Bitstream Vera Fonts with a wider range of characters
 
+Package: xcb-proto
+Architecture: all
+Installed-Size: 816
+Maintainer: Leonid Pliushch <leonid.pliushch@gmail.com>
+Version: 1.14.1
+Homepage: https://xcb.freedesktop.org/
+Conflicts: xcbproto
+Replaces: xcbproto
+Priority: high
+Section: main
+Filename: pool/main/x/xcb-proto/xcb-proto_1.14.1_all.deb
+Size: 86126
+SHA256: b674c6423de03bdd833cd575681bff0e4fcf5379d74204f441669c9693564a56
+SHA1: 6fed8b6e54924d942b366bab6cd65cd266ca6579
+MD5sum: 9d124e45909983cf21f7e7dd73371ede
+Description: XML-XCB protocol descriptions
+
+Package: xorg-util-macros
+Architecture: all
+Installed-Size: 96
+Maintainer: Leonid Pliushch <leonid.pliushch@gmail.com>
+Version: 1.19.3
+Homepage: https://xorg.freedesktop.org/
+Priority: high
+Section: main
+Filename: pool/main/x/xorg-util-macros/xorg-util-macros_1.19.3_all.deb
+Size: 21864
+SHA256: 86ce5ddf37499d911f02e6e27f49892265cb23b8d3b69d6732fcd85ac7866d1f
+SHA1: 1bf111ee17ed1c124fa726167d0019d72436f2e8
+MD5sum: e594aa5c882296e281f4869f0d5c75aa
+Description: X.Org Autotools macros
+
+Package: xorgproto
+Architecture: all
+Installed-Size: 1828
+Maintainer: Leonid Pliushch <leonid.pliushch@gmail.com>
+Version: 2020.1-1
+Homepage: https://xorg.freedesktop.org/
+Depends: xorg-util-macros
+Conflicts: x11-proto
+Replaces: x11-proto
+Priority: high
+Section: main
+Filename: pool/main/x/xorgproto/xorgproto_2020.1-1_all.deb
+Size: 175132
+SHA256: 69aaa2879c03450c3dadd2acfb45b91998557b82251be565d77d7334ce747be9
+SHA1: c366baa87d5cbad3bdba8c19888d8b6ea2c64d4d
+MD5sum: 1147c49fd80eaa2c0c9a227295097b79
+Description: X.Org X11 Protocol headers
+
 Package: xsltproc
 Architecture: arm
 Installed-Size: 28
@@ -2373,6 +2552,21 @@ SHA256: ff6ea74f3aacf05912533ba10de8b61aa1efd971be7f7c566fff20a026b229f2
 SHA1: 1ff2eeb2ad6c68df9e94e0e0c6ae1b2486ac869d
 MD5sum: 075af6b45b57200e0949bcf7b0a5a308
 Description: XSLT command line processor
+
+Package: xtrans
+Architecture: all
+Installed-Size: 264
+Maintainer: Leonid Pliushch <leonid.pliushch@gmail.com>
+Version: 1.4.0-8
+Homepage: https://xorg.freedesktop.org/
+Priority: high
+Section: main
+Filename: pool/main/x/xtrans/xtrans_1.4.0-8_all.deb
+Size: 42802
+SHA256: a719c1e8b15b6f13409604e9585462253bb4366fdc55d4715fc8835c431b8ce0
+SHA1: 064e6403674ff14ffb14279043f2ae1c63c08696
+MD5sum: b9de4ad7f0b1dea3c795c4c8fdabbf20
+Description: X transport library
 
 Package: xxhash
 Architecture: arm
