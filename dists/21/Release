@@ -1,18 +1,18 @@
 Origin: ferryar.github.io/psyco-termux
 Label: ferryar.github.io/psyco-termux
 Codename: 21
-Date: Thu, 17 Jun 2021 20:30:03 UTC
+Date: Thu, 17 Jun 2021 23:23:59 UTC
 Architectures: arm
 Components: main
 MD5Sum:
- 07cd021db540d657ccec6a84e1c44d9e 81068 main/binary-arm/Packages
- 38cb951c12de712a9428c884669c4827 25421 main/binary-arm/Packages.gz
+ 953cf35e15d4bb32dc5502f072ff9209 92143 main/binary-arm/Packages
+ a81b63aafd3c564964ab86f58b469995 28667 main/binary-arm/Packages.gz
  035a97f47b184a5882421b98f0104016 111 main/binary-arm/Release
 SHA1:
- d8c131bf9521a34433d3711e117ad174b1dfacb2 81068 main/binary-arm/Packages
- 3fec964b55c42d8fa7a3024ca10a964f34691799 25421 main/binary-arm/Packages.gz
+ d1daa7f75f7fdab29e634959d19f7c6794acfdf7 92143 main/binary-arm/Packages
+ b524d6bff57eefb844ec8b526b0ff2dc50cafeaa 28667 main/binary-arm/Packages.gz
  90af55c5d0019bbd8df492dbea57081d74300c05 111 main/binary-arm/Release
 SHA256:
- a711545679319457b65ed1a52dc0c2f3b92012d119c13ffa30cea6398526c04a 81068 main/binary-arm/Packages
- b9d667c3f25605d7442cd5260e08eb839bd913b64aa10a30c603add6b2ae2b43 25421 main/binary-arm/Packages.gz
+ 056185d8784bd065b4a3c228b8faed356ae010ab090b30663663730d8daec84f 92143 main/binary-arm/Packages
+ ba7e4590faca5ea77d542f1581aa8103dcdf12cecc1ce70cfa173b9291909b9c 28667 main/binary-arm/Packages.gz
  70cc5e81e98e4594e604760093bee7830ba1affc9e0b5ca6ff635f33dd004f54 111 main/binary-arm/Release

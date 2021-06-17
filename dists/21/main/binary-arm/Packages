@@ -523,6 +523,40 @@ SHA1: 00ac378affc411c3257abde5ac6ed68774caa307
 MD5sum: 8f4dacea89de2b1e35f6d8e7f276e3f4
 Description: A set of utilities that comes with giflib package
 
+Package: glib
+Architecture: arm
+Installed-Size: 5272
+Maintainer: @termux
+Version: 2.66.1
+Homepage: https://developer.gnome.org/glib/
+Breaks: glib-dev
+Depends: libffi, libiconv, pcre, libandroid-support, zlib
+Replaces: glib-dev
+Priority: high
+Section: main
+Filename: pool/main/g/glib/glib_2.66.1_arm.deb
+Size: 1088936
+SHA256: 212189d1a8e87e6077349c135001c27fb8ac3325dc6d7da8409f17143c3f66e7
+SHA1: b40beb21f693ed4f62d33b3e62ed20cba2018bd8
+MD5sum: 067f28cf8d91007f4cb127c134e21570
+Description: Library providing core building blocks for libraries and applications written in C
+
+Package: glib-bin
+Architecture: arm
+Installed-Size: 368
+Maintainer: @termux
+Version: 2.66.1
+Homepage: https://developer.gnome.org/glib/
+Depends: python, glib (= 2.66.1)
+Priority: high
+Section: main
+Filename: pool/main/g/glib-bin/glib-bin_2.66.1_arm.deb
+Size: 84932
+SHA256: 6a1c42ebbfdd3943beee39096888f236c489ce6961b0d58b86be76e550f84e18
+SHA1: 52475190b255deaa2f7d9daef648b0f862794b0f
+MD5sum: 15ef116d46476ec51599d54d5b25f311
+Description: Programs for the GLib library
+
 Package: gnupg
 Architecture: arm
 Installed-Size: 4200
@@ -637,6 +671,40 @@ SHA256: 2de7e753323f977a0806f3bd7fec8e0804bfde20c56843bd5482e58577888b5a
 SHA1: ef8e37688dcc6039856ba98f6470cadf2d4f723d
 MD5sum: 797302f1b9ae0be27464a2e8d70af419
 Description: Development utilities for International Components for Unicode
+
+Package: ldns
+Architecture: arm
+Installed-Size: 2604
+Maintainer: @termux
+Version: 1.7.1-3
+Homepage: https://www.nlnetlabs.nl/projects/ldns/
+Breaks: ldns-dev
+Depends: openssl
+Replaces: ldns-dev
+Priority: high
+Section: main
+Filename: pool/main/l/ldns/ldns_1.7.1-3_arm.deb
+Size: 284016
+SHA256: c090f77f3c8ec3d4112af66534c940f545797223876fd81ab80608491b50729a
+SHA1: d70dcf8e61239d488fdf78649040ea31c0277f20
+MD5sum: e7dd80995c9f0879edb5a645da08e068
+Description: Library for simplifying DNS programming and supporting recent and experimental RFCs
+
+Package: ldns-static
+Architecture: arm
+Installed-Size: 392
+Maintainer: @termux
+Version: 1.7.1-3
+Homepage: https://www.nlnetlabs.nl/projects/ldns/
+Depends: ldns (= 1.7.1-3)
+Priority: high
+Section: main
+Filename: pool/main/l/ldns-static/ldns-static_1.7.1-3_arm.deb
+Size: 114616
+SHA256: db9f34f2e02b21ee1ae387f88bdbbf0b84b38114d0fe19cfb083fedd624adca9
+SHA1: 2340ccc1feb8ebd6d8a6df59e8eb9d5b0a82f571
+MD5sum: bd091d3adddaef837be9ca863a3be900
+Description: Static libraries for ldns
 
 Package: less
 Architecture: arm
@@ -892,6 +960,40 @@ SHA256: e7b59085e9e3321d603767a00f116b51d0d22b62abc5b1196b626237cbe0523a
 SHA1: e9e0c9b98b10cf41e63f45265d1e5ab67226697a
 MD5sum: 977eff9cde9fa0242866caf0e5139047
 Description: Static libraries for libdb
+
+Package: libedit
+Architecture: arm
+Installed-Size: 320
+Maintainer: @termux
+Version: 20210419-3.1-0
+Homepage: https://thrysoee.dk/editline/
+Breaks: libedit-dev
+Depends: libandroid-support, ncurses
+Replaces: libedit-dev
+Priority: high
+Section: main
+Filename: pool/main/libe/libedit/libedit_20210419-3.1-0_arm.deb
+Size: 69964
+SHA256: 0ee0ee72d243c89aa589baffa8e2457e57384ed36c8e70bf50e39663fe6a5836
+SHA1: a2a9d5629f8024b3c4cd9640aae87049aec82339
+MD5sum: b952336b75d06c9187749e6f229193d0
+Description: Library providing line editing, history, and tokenization functions
+
+Package: libedit-static
+Architecture: arm
+Installed-Size: 224
+Maintainer: @termux
+Version: 20210419-3.1-0
+Homepage: https://thrysoee.dk/editline/
+Depends: libedit (= 20210419-3.1-0)
+Priority: high
+Section: main
+Filename: pool/main/libe/libedit-static/libedit-static_20210419-3.1-0_arm.deb
+Size: 68656
+SHA256: b3a36f93b570c87427839f4a11fab97d9febfaf3e82dd36bd23c7025e7495b1c
+SHA1: 2c83ae5d21a171abce9c72b1e0db0e4ddb89baa9
+MD5sum: 115cd00a2b83cef54b12a5ca62161247
+Description: Static libraries for libedit
 
 Package: libevent
 Architecture: arm
@@ -1798,6 +1900,39 @@ SHA1: ac7033614da368d55796a204b31bfc4102c3b235
 MD5sum: 88d7ccd4a961e498a56f7dfb6a433eae
 Description: Static libraries for libwebp
 
+Package: libx11
+Architecture: arm
+Installed-Size: 9564
+Maintainer: Leonid Pliushch <leonid.pliushch@gmail.com>
+Version: 1.7.0
+Homepage: https://xorg.freedesktop.org/
+Depends: libandroid-support, libxcb
+Recommends: xorg-xauth
+Priority: high
+Section: main
+Filename: pool/main/libx/libx11/libx11_1.7.0_arm.deb
+Size: 1762828
+SHA256: 5d85a5645763f4f7172aa11befbb556533a12d2e80416feacacee7f91d897fc8
+SHA1: d3c2310d70da58ca83eecc3aac29c55f8ee1045d
+MD5sum: 7106c7db0386dd4404ac31776699dd54
+Description: X11 client-side library
+
+Package: libx11-static
+Architecture: arm
+Installed-Size: 1528
+Maintainer: Leonid Pliushch <leonid.pliushch@gmail.com>
+Version: 1.7.0
+Homepage: https://xorg.freedesktop.org/
+Depends: libx11 (= 1.7.0)
+Priority: high
+Section: main
+Filename: pool/main/libx/libx11-static/libx11-static_1.7.0_arm.deb
+Size: 530734
+SHA256: 75fa2290d788f5e6b9a2176cc588c7f557603022a029269b8417650305cfa9c6
+SHA1: 9dccb9e1185f3ba54df6fdb4479200ac4a480eeb
+MD5sum: b93047046edcdc5dfe40bc29357be08d
+Description: Static libraries for libx11
+
 Package: libxau
 Architecture: arm
 Installed-Size: 60
@@ -1893,6 +2028,70 @@ SHA1: 77ed172c748c9e298038bed73185ccf580fc01ae
 MD5sum: f81b656b5aaff720e0d57ea11ff01cd3
 Description: Static libraries for libxdmcp
 
+Package: libxext
+Architecture: arm
+Installed-Size: 528
+Maintainer: Leonid Pliushch <leonid.pliushch@gmail.com>
+Version: 1.3.4-11
+Homepage: https://xorg.freedesktop.org/
+Depends: libx11, libxau, libxcb, libxdmcp
+Priority: high
+Section: main
+Filename: pool/main/libx/libxext/libxext_1.3.4-11_arm.deb
+Size: 96358
+SHA256: ecfa00843bd888601972a586645f64b5d13554aaa13022757b00492c45205593
+SHA1: 23c4f88043d334f30f793cc29683f0c498cf51f5
+MD5sum: 77047744f0f78cd9831a3bec16de6c64
+Description: X11 miscellaneous extensions library
+
+Package: libxext-static
+Architecture: arm
+Installed-Size: 80
+Maintainer: Leonid Pliushch <leonid.pliushch@gmail.com>
+Version: 1.3.4-11
+Homepage: https://xorg.freedesktop.org/
+Depends: libxext (= 1.3.4-11)
+Priority: high
+Section: main
+Filename: pool/main/libx/libxext-static/libxext-static_1.3.4-11_arm.deb
+Size: 21486
+SHA256: 75f5a6da51200bde1a5599f771399eacf3ee1ee85cd43bded565834d0abc65d3
+SHA1: 3f3e324981fa75bcabd2fbfc89341e5c9ed6c083
+MD5sum: 4d2727a60853036367d84ff877177a4d
+Description: Static libraries for libxext
+
+Package: libxft
+Architecture: arm
+Installed-Size: 96
+Maintainer: Leonid Pliushch <leonid.pliushch@gmail.com>
+Version: 2.3.3-13
+Homepage: https://xorg.freedesktop.org/
+Depends: fontconfig, freetype, libbz2, liblzma, libpng, libuuid, libx11, libxau, libxcb, libxdmcp, libxml2, libxrender
+Priority: high
+Section: main
+Filename: pool/main/libx/libxft/libxft_2.3.3-13_arm.deb
+Size: 37260
+SHA256: 59191cc5630f5836e5ed372849fdb978a0c2ffbf00aa25ef02044c1b713b953a
+SHA1: 191b21dede85d5fc864396b0fb71c2f39371243e
+MD5sum: 9cb960afb6e91e27c64bb36d40b7fe88
+Description: FreeType-based font drawing library for X
+
+Package: libxft-static
+Architecture: arm
+Installed-Size: 84
+Maintainer: Leonid Pliushch <leonid.pliushch@gmail.com>
+Version: 2.3.3-13
+Homepage: https://xorg.freedesktop.org/
+Depends: libxft (= 2.3.3-13)
+Priority: high
+Section: main
+Filename: pool/main/libx/libxft-static/libxft-static_2.3.3-13_arm.deb
+Size: 29788
+SHA256: 5606895a86a4d9d1dbdc670d583e16fdd929037e9b33e30cbc101a31a6fdd9f2
+SHA1: 41e80ffc8194f9dac76e34a9c8213e975e963f18
+MD5sum: cb8a33dd9520e5abff2af439a18c6db3
+Description: Static libraries for libxft
+
 Package: libxml2
 Architecture: arm
 Installed-Size: 5016
@@ -1943,6 +2142,38 @@ SHA1: 34e7ecb1702ccaed1a2e8ac42e93842ac73ee5c2
 MD5sum: d01008275ca1c70091e798677e5256f6
 Description: XML utilities
 
+Package: libxrender
+Architecture: arm
+Installed-Size: 84
+Maintainer: Leonid Pliushch <leonid.pliushch@gmail.com>
+Version: 0.9.10-14
+Homepage: https://xorg.freedesktop.org/
+Depends: libx11
+Priority: high
+Section: main
+Filename: pool/main/libx/libxrender/libxrender_0.9.10-14_arm.deb
+Size: 21896
+SHA256: 8801be69503a998394fcf563d4c22b4a42c33891f59970109c9ed2a9a4eb4f2d
+SHA1: 5f2f4533dee3f877fd4e09e2cb72a3df9796464d
+MD5sum: 629d3c028ba9b54ff84ff0ad5ff574e5
+Description: X Rendering Extension client library
+
+Package: libxrender-static
+Architecture: arm
+Installed-Size: 44
+Maintainer: Leonid Pliushch <leonid.pliushch@gmail.com>
+Version: 0.9.10-14
+Homepage: https://xorg.freedesktop.org/
+Depends: libxrender (= 0.9.10-14)
+Priority: high
+Section: main
+Filename: pool/main/libx/libxrender-static/libxrender-static_0.9.10-14_arm.deb
+Size: 13092
+SHA256: d1050ceebb10b5cec0e3f86aa5e1398ae55fab4ce2d022b9202c13e9f38df9c5
+SHA1: 0d3f6bbc337bfa292328d836f6df55d242745b70
+MD5sum: 1ef7d545692cbe5d53d054e14144c9f8
+Description: Static libraries for libxrender
+
 Package: libxslt
 Architecture: arm
 Installed-Size: 2316
@@ -1976,6 +2207,38 @@ SHA256: cad49141cbb20b34001c089a4b58b5718888fe51d9169630fb6f3c57ec85b3b5
 SHA1: e56cb9922c5f86cc8a99797587e5e6da33f6ba4a
 MD5sum: d6d664d8ebce8462b4cc403275011792
 Description: Static libraries for libxslt
+
+Package: libxss
+Architecture: arm
+Installed-Size: 80
+Maintainer: Leonid Pliushch <leonid.pliushch@gmail.com>
+Version: 1.2.3-13
+Homepage: https://xorg.freedesktop.org/
+Depends: libx11, libxau, libxcb, libxdmcp, libxext
+Priority: high
+Section: main
+Filename: pool/main/libx/libxss/libxss_1.2.3-13_arm.deb
+Size: 11392
+SHA256: 5abdbed151baaf31fb3591a54043c7844cda4934ed5a5d69f06932fde2dcf0d8
+SHA1: 9890a4ef6c6c1e7de303f460874b1bee789d8feb
+MD5sum: 1af5ba8e9819250e11e6f20f93d92070
+Description: X11 Screen Saver extension library
+
+Package: libxss-static
+Architecture: arm
+Installed-Size: 12
+Maintainer: Leonid Pliushch <leonid.pliushch@gmail.com>
+Version: 1.2.3-13
+Homepage: https://xorg.freedesktop.org/
+Depends: libxss (= 1.2.3-13)
+Priority: high
+Section: main
+Filename: pool/main/libx/libxss-static/libxss-static_1.2.3-13_arm.deb
+Size: 3892
+SHA256: 8231ab32e713202c74aacd9e3fd16000bfd968fefec583166b8f86190388f946
+SHA1: 3198ccbc90a95c243fcf668781714bbe3654f1f3
+MD5sum: 94683fb89d2add70f5be59a519d9fda3
+Description: Static libraries for libxss
 
 Package: libzip
 Architecture: arm
@@ -2308,6 +2571,58 @@ SHA1: 40e8857132ec717ce97e0e9cf2fbcbe2ce75b982
 MD5sum: 9580c9e588093469a77ec3082b88fdb5
 Description: Static libraries for postgresql
 
+Package: python
+Architecture: arm
+Installed-Size: 45112
+Maintainer: @termux
+Version: 3.9.5
+Homepage: https://python.org/
+Breaks: python2 (<= 2.7.15), python-dev
+Depends: gdbm, libandroid-support, libbz2, libcrypt, libffi, liblzma, libsqlite, ncurses, ncurses-ui-libs, openssl, readline, zlib
+Recommends: clang, make, pkg-config
+Replaces: python-dev
+Suggests: python-tkinter
+Priority: high
+Section: main
+Filename: pool/main/p/python/python_3.9.5_arm.deb
+Size: 7961272
+SHA256: f4b4e58361b192473b38dc9112dc774e01fc34797f98bf59799ac0cf92497bd3
+SHA1: f0ca0144738e733ab28a229c4f53cc42b059cf7d
+MD5sum: 0fedc66bf614eba3bb7869ae326ad045
+Description: Python 3 programming language intended to enable clear programs
+
+Package: python-static
+Architecture: arm
+Installed-Size: 14296
+Maintainer: @termux
+Version: 3.9.5
+Homepage: https://python.org/
+Depends: python (= 3.9.5)
+Priority: high
+Section: main
+Filename: pool/main/p/python-static/python-static_3.9.5_arm.deb
+Size: 3594874
+SHA256: a48dc6abf80aa3a749b25916c2da915a7b3ae311defddf72eb1900f53199b2ea
+SHA1: 9fd2a953815bd70284d8252ceba64576baee3e94
+MD5sum: ad8e63318c49fe2cfae26360121f8654
+Description: Static libraries for python
+
+Package: python-tkinter
+Architecture: arm
+Installed-Size: 7788
+Maintainer: @termux
+Version: 3.9.5
+Homepage: https://python.org/
+Depends: tk, python (= 3.9.5)
+Priority: high
+Section: main
+Filename: pool/main/p/python-tkinter/python-tkinter_3.9.5_arm.deb
+Size: 869364
+SHA256: a80f2ab5c111d5dbf9174b42b9d60e062e14b7a1051894e1f5e81794331a35df
+SHA1: e2dc6d02bb7f9125184be7ac74cd4f7b71f55705
+MD5sum: e80d313ef12cb7cc67549f43f557269a
+Description: Tkinter support for Python 3
+
 Package: readline
 Architecture: arm
 Installed-Size: 948
@@ -2406,6 +2721,24 @@ SHA1: b31d76d0bbf3b7f63ff54ada50c676b32b966d0f
 MD5sum: 63e2e6c4230c6e6e9bf20c26300fb0c9
 Description: GNU tar for manipulating tar archives
 
+Package: tcl
+Architecture: arm
+Installed-Size: 9172
+Maintainer: @termux
+Version: 8.6.11
+Homepage: https://www.tcl.tk/
+Breaks: tcl-dev, tcl-static
+Depends: zlib
+Replaces: tcl-dev, tcl-static
+Priority: high
+Section: main
+Filename: pool/main/t/tcl/tcl_8.6.11_arm.deb
+Size: 2185126
+SHA256: 4b2503c01df9a7395fd5a490fdd963f3738a7beecac5c65bc2e30661fc634c0a
+SHA1: e404f480d7f131cc779a8dab692eef77f69ce991
+MD5sum: c1d25dedfb9d38179d3c12f25b4fcff4
+Description: Powerful but easy to learn dynamic programming language
+
 Package: termux-licenses
 Architecture: all
 Installed-Size: 336
@@ -2455,6 +2788,22 @@ SHA256: b483d5cbd30f1522110f481d83d7b13041a732b80df63f96a42d65962e04fc09
 SHA1: 7ad1dfc9dfb28739485948bc25f42ec83bd0f148
 MD5sum: 4d4f13ca5a37bb9cb747a6cb395e92bf
 Description: Static libraries for tidy
+
+Package: tk
+Architecture: arm
+Installed-Size: 7284
+Maintainer: Leonid Pliushch <leonid.pliushch@gmail.com>
+Version: 8.6.11.1
+Homepage: http://tcl.sourceforge.net/
+Depends: fontconfig, libx11, libxft, libxss, tcl
+Priority: high
+Section: main
+Filename: pool/main/t/tk/tk_8.6.11.1_arm.deb
+Size: 1164102
+SHA256: 441368af0e23815277b50ff624b434233bd866ee9bb0f5ae95f9947c99b384f8
+SHA1: 541f25bb2860b6204fcbf409b9941f348a2e291b
+MD5sum: 862ecf8345470193e5b9616757984546
+Description: A windowing toolkit for use with tcl
 
 Package: tor
 Architecture: arm
