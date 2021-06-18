@@ -15,3 +15,6 @@ Termux packages from master branch of [termux-packages](https://github.com/termu
 ### Packages that requires more work (help needed!)
 - procps
 - proot
+- mariadb
+- openssh
+- krb5

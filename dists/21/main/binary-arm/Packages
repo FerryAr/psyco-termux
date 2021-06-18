@@ -136,6 +136,23 @@ SHA1: 7f85e26760c1dbec1438cc588e0868bc649b0d22
 MD5sum: 90231f7ab3ffb925249594edd868f727
 Description: Tools for working with bzip2 compression
 
+Package: c-ares
+Architecture: arm
+Installed-Size: 384
+Maintainer: @termux
+Version: 1.17.1-1
+Homepage: https://c-ares.haxx.se
+Breaks: c-ares-dev
+Replaces: c-ares-dev
+Priority: high
+Section: main
+Filename: pool/main/c/c-ares/c-ares_1.17.1-1_arm.deb
+Size: 115740
+SHA256: 6da60651a33903c9d1a2a8cfa27704ec8ae7cfe96ddceea3ff87d35084103fa2
+SHA1: 5c5a0c65233b7c15425973dc7f3c8afb561aa9a2
+MD5sum: e22b02722afb7062acedecf5c1cb8c6d
+Description: Library for asynchronous DNS requests (including name resolves)
+
 Package: ca-certificates
 Architecture: all
 Installed-Size: 204
@@ -319,6 +336,22 @@ SHA256: 0527ff766b2b4bc6a21ec07be96ec8f29320e7d6c1e72abb3bc72e6b3fd40243
 SHA1: e9c9f3382262f7b6cfd6c95c96002611e3ad5a3e
 MD5sum: 3088b483ee5061ee1471646938b11519
 Description: Utilities to find files meeting specified criteria and perform various actions on the files which are found
+
+Package: flac
+Architecture: arm
+Installed-Size: 252
+Maintainer: @termux
+Version: 1.3.3-1
+Homepage: https://xiph.org/flac/
+Depends: libflac (= 1.3.3-1)
+Priority: high
+Section: main
+Filename: pool/main/f/flac/flac_1.3.3-1_arm.deb
+Size: 96796
+SHA256: 96832ff2d28b0f0ab8b7d64b68c69786928aaafdda439b9d151c0061c977d586
+SHA1: c5f9a34397edceb343c9e91bc6e0baa6adeca82d
+MD5sum: 6810ac22f1931c85a4080a1a788891c5
+Description: FLAC (Free Lossless Audio Codec) command-line tool
 
 Package: fontconfig
 Architecture: arm
@@ -1078,6 +1111,40 @@ SHA1: 2993416735e993502aa170ca538d2a9862b6a8a0
 MD5sum: 7431c70c4e3a52b74b46c0ede40a6fc9
 Description: Static libraries for libffi
 
+Package: libflac
+Architecture: arm
+Installed-Size: 1104
+Maintainer: @termux
+Version: 1.3.3-1
+Homepage: https://xiph.org/flac/
+Breaks: libflac-dev
+Depends: libc++, libogg
+Replaces: libflac-dev
+Priority: high
+Section: main
+Filename: pool/main/libf/libflac/libflac_1.3.3-1_arm.deb
+Size: 209598
+SHA256: 19c8de69483985f809b5982dfe06875ebef906cb8ae6275248c2974b8d68e646
+SHA1: 998436f137ac8cf2494b431fe03480b3a939cee8
+MD5sum: 3a20b4999aaa037fe8aeef2ef816a310
+Description: FLAC (Free Lossless Audio Codec) library
+
+Package: libflac-static
+Architecture: arm
+Installed-Size: 328
+Maintainer: @termux
+Version: 1.3.3-1
+Homepage: https://xiph.org/flac/
+Depends: libflac (= 1.3.3-1)
+Priority: high
+Section: main
+Filename: pool/main/libf/libflac-static/libflac-static_1.3.3-1_arm.deb
+Size: 88360
+SHA256: 729400ced9a2513842346657b90194c4c07a1ab8fd61faa267e406833ae1805f
+SHA1: 4b72900ee3ed242bc2b5539ba8bf5d197e63b228
+MD5sum: 8f057b86cb03352e1740c8c5a9779ed3
+Description: Static libraries for libflac
+
 Package: libgcrypt
 Architecture: arm
 Installed-Size: 1116
@@ -1430,6 +1497,21 @@ SHA1: 22373bd82bfe1f841a9a12f7f01b5fb24ff7c17f
 MD5sum: 1810615502a22a71bcdfb5f2d737029f
 Description: Static libraries for libksba
 
+Package: libltdl
+Architecture: arm
+Installed-Size: 28
+Maintainer: @termux
+Version: 2.4.6-8
+Homepage: https://www.gnu.org/software/libtool/
+Priority: high
+Section: main
+Filename: pool/main/libl/libltdl/libltdl_2.4.6-8_arm.deb
+Size: 12082
+SHA256: d2a0e444355fd9942bc9d7f3a4f2d66515ced7e39fc7912bd2e85580b1780abf
+SHA1: 2a85ec14815e8e04e9b6ff8448b1ee5ee0e64f7d
+MD5sum: 36dc84a832a4f44ce09b8f31e2939bbd
+Description: Library for dlopening libraries
+
 Package: liblz4
 Architecture: arm
 Installed-Size: 272
@@ -1631,6 +1713,39 @@ SHA1: e65cfaf54c3f9de7bc89d66293b0cfcb264d53bc
 MD5sum: 993cb48553f51ffafd4eed0ecfa71f73
 Description: Static libraries for libnpth
 
+Package: libogg
+Architecture: arm
+Installed-Size: 624
+Maintainer: @termux
+Version: 1.3.5
+Homepage: https://xiph.org/ogg/
+Breaks: libogg-dev
+Replaces: libogg-dev
+Priority: high
+Section: main
+Filename: pool/main/libo/libogg/libogg_1.3.5_arm.deb
+Size: 189652
+SHA256: fea1a7f674487228ef14482cbfe2a2bf26bc068073b9c7f952285b09c812a956
+SHA1: be5aee320c7164ec1adac412055d55f00b1db511
+MD5sum: 2c8d4ddf262169ef8e929d7c3f1ec618
+Description: Library for working with the Ogg multimedia container format
+
+Package: libogg-static
+Architecture: arm
+Installed-Size: 28
+Maintainer: @termux
+Version: 1.3.5
+Homepage: https://xiph.org/ogg/
+Depends: libogg (= 1.3.5)
+Priority: high
+Section: main
+Filename: pool/main/libo/libogg-static/libogg-static_1.3.5_arm.deb
+Size: 15630
+SHA256: 2537362343ac872b5f63034495f2410e974488059ffcc68d8d483ec89a083b92
+SHA1: df975ce219218816e7ca7d23401f2abf41334682
+MD5sum: c57e8257cedea75618a8282dad58818e
+Description: Static libraries for libogg
+
 Package: libpcreposix
 Architecture: arm
 Installed-Size: 8
@@ -1680,6 +1795,57 @@ SHA256: b022a61dbd14be6ad95f783a26077fbc3461a7ad047d66fbc1f16b84b9fffe60
 SHA1: 301b5a7c662ae08c01d8ddb1035062fa9219b8f3
 MD5sum: f588b8c6a4a7231f3403bcfddc34dda2
 Description: Static libraries for libpng
+
+Package: libsndfile
+Architecture: arm
+Installed-Size: 552
+Maintainer: @termux
+Version: 1.0.31
+Homepage: http://www.mega-nerd.com/libsndfile
+Breaks: libsndfile-dev
+Depends: libflac, libvorbis
+Replaces: libsndfile-dev
+Priority: high
+Section: main
+Filename: pool/main/libs/libsndfile/libsndfile_1.0.31_arm.deb
+Size: 199222
+SHA256: b96322f612a48dad401f01fa504ea7200e1b21f419954a7769a5911bfbfb82ef
+SHA1: 9b010b5ab7dbc3375a7eb4e753c882613553e030
+MD5sum: d544397ba494a0c86ff8c32112cbfa53
+Description: Library for reading/writing audio files
+
+Package: libsndfile-static
+Architecture: arm
+Installed-Size: 548
+Maintainer: @termux
+Version: 1.0.31
+Homepage: http://www.mega-nerd.com/libsndfile
+Depends: libsndfile (= 1.0.31)
+Priority: high
+Section: main
+Filename: pool/main/libs/libsndfile-static/libsndfile-static_1.0.31_arm.deb
+Size: 170460
+SHA256: 27719e72a03213ef39db82314421a922a7372a78a51321f5c3fa14178d2993ef
+SHA1: 4d6b6b1e59744dd588d1a6de9b2b3a707b080b78
+MD5sum: dcb79c4d64cc43fd3c944ce6466459fe
+Description: Static libraries for libsndfile
+
+Package: libsoxr
+Architecture: arm
+Installed-Size: 684
+Maintainer: @termux
+Version: 0.1.3-2
+Homepage: https://sourceforge.net/projects/soxr/
+Breaks: libsoxr-dev
+Replaces: libsoxr-dev
+Priority: high
+Section: main
+Filename: pool/main/libs/libsoxr/libsoxr_0.1.3-2_arm.deb
+Size: 221894
+SHA256: efdccc4231fac0891e99d19da875b3085f1bb3b8e191b14e762b00463f2c6a85
+SHA1: 71a95286d9fec3d9b6a9104fb56bd802a7098b5b
+MD5sum: 650503a05f9a634fadbf7c17e07c7cde
+Description: High quality, one-dimensional sample-rate conversion library
 
 Package: libsqlite
 Architecture: arm
@@ -1799,6 +1965,24 @@ SHA1: 4e495b5080363a0317bfee3547de25aace90b8c7
 MD5sum: 03025540a46c7039f14723c656c06cce
 Description: Tools for working with tiff files
 
+Package: libtool
+Architecture: arm
+Installed-Size: 2608
+Maintainer: @termux
+Version: 2.4.6-8
+Homepage: https://www.gnu.org/software/libtool/
+Depends: bash, grep, sed, libltdl
+Conflicts: libtool-dev, libtool-static
+Replaces: libtool-dev, libtool-static
+Priority: high
+Section: main
+Filename: pool/main/libt/libtool/libtool_2.4.6-8_arm.deb
+Size: 375656
+SHA256: 101b1a74a85e93d05244df1aae67e6b19b6aa4b271055bc8f212aa404fb79c3b
+SHA1: 4f61a4f686cdcd272d2a441e3108a2522f23467d
+MD5sum: e1b3e940497749e54f5b668e9fd86091
+Description: Generic library support script hiding the complexity of using shared libraries behind a consistent, portable interface
+
 Package: libunistring
 Architecture: arm
 Installed-Size: 2584
@@ -1866,6 +2050,40 @@ SHA1: 16c423462def899df532bde0b70e440033e25880
 MD5sum: 9f6b05a7428e9065343a493527beaff0
 Description: Static libraries for libuuid
 
+Package: libvorbis
+Architecture: arm
+Installed-Size: 1568
+Maintainer: @termux
+Version: 1.3.7
+Homepage: https://xiph.org/vorbis/
+Breaks: libvorbis-dev
+Depends: libogg
+Replaces: libvorbis-dev
+Priority: high
+Section: main
+Filename: pool/main/libv/libvorbis/libvorbis_1.3.7_arm.deb
+Size: 261680
+SHA256: 662f0974338d6bb7e25ea8ff5fee1b1de4cb80242507a7cc64736d1559497a37
+SHA1: bff2b5d76821233449d0c373600dff2a1312ea24
+MD5sum: 7cfacd2192e1ab5e620490193d0be8ba
+Description: Library for using the Ogg Vorbis compressed audio format
+
+Package: libvorbis-static
+Architecture: arm
+Installed-Size: 796
+Maintainer: @termux
+Version: 1.3.7
+Homepage: https://xiph.org/vorbis/
+Depends: libvorbis (= 1.3.7)
+Priority: high
+Section: main
+Filename: pool/main/libv/libvorbis-static/libvorbis-static_1.3.7_arm.deb
+Size: 152222
+SHA256: 39ea8578812ca1f661bf27171156ba2f979ad6cbdd431e4bb1a638b5fa6366d1
+SHA1: e1db0c6dd0ad2783e5d49813028bdfc17d8222c4
+MD5sum: 1cd3715c725fabf07b7659309303a8a1
+Description: Static libraries for libvorbis
+
 Package: libwebp
 Architecture: arm
 Installed-Size: 612
@@ -1899,6 +2117,37 @@ SHA256: 9b24e41e625d548903d34066bb48dec29c54bbb54ddaa01862b049bea38d8bac
 SHA1: ac7033614da368d55796a204b31bfc4102c3b235
 MD5sum: 88d7ccd4a961e498a56f7dfb6a433eae
 Description: Static libraries for libwebp
+
+Package: libwebrtc-audio-processing
+Architecture: arm
+Installed-Size: 680
+Maintainer: Patrick Gaskin @pgaskin
+Version: 0.3.1
+Homepage: https://freedesktop.org/software/pulseaudio/webrtc-audio-processing/
+Priority: high
+Section: main
+Filename: pool/main/libw/libwebrtc-audio-processing/libwebrtc-audio-processing_0.3.1_arm.deb
+Size: 260276
+SHA256: d4d173a0100211f189af10d34279b64054091b0a95bb2e0576514b1d7e8873e1
+SHA1: 215dd7c52692afe6eae2195285051ccf60611467
+MD5sum: 08b4e59515253b84365eafa5b4d47587
+Description: A library containing the AudioProcessing module from the WebRTC project
+
+Package: libwebrtc-audio-processing-static
+Architecture: arm
+Installed-Size: 2300
+Maintainer: Patrick Gaskin @pgaskin
+Version: 0.3.1
+Homepage: https://freedesktop.org/software/pulseaudio/webrtc-audio-processing/
+Depends: libwebrtc-audio-processing (= 0.3.1)
+Priority: high
+Section: main
+Filename: pool/main/libw/libwebrtc-audio-processing-static/libwebrtc-audio-processing-static_0.3.1_arm.deb
+Size: 385324
+SHA256: ba49138a4ed2e39f2e5ab4d1f323c0d502ae6ea8a502c3a236b482623b8b6595
+SHA1: dc0599afc5d98d40d074d4fc2a34ff31ae1e6b94
+MD5sum: 6777e056f3cb5da56a4bc260693e0a5c
+Description: Static libraries for libwebrtc-audio-processing
 
 Package: libx11
 Architecture: arm
@@ -2587,6 +2836,72 @@ SHA1: 40e8857132ec717ce97e0e9cf2fbcbe2ce75b982
 MD5sum: 9580c9e588093469a77ec3082b88fdb5
 Description: Static libraries for postgresql
 
+Package: pulseaudio
+Architecture: arm
+Installed-Size: 3312
+Maintainer: @termux
+Version: 14.2-4
+Homepage: https://www.freedesktop.org/wiki/Software/PulseAudio
+Breaks: libpulseaudio-dev, libpulseaudio
+Depends: libltdl, libsndfile, libandroid-glob, libsoxr, speexdsp, libwebrtc-audio-processing
+Replaces: libpulseaudio-dev, libpulseaudio
+Priority: high
+Section: main
+Filename: pool/main/p/pulseaudio/pulseaudio_14.2-4_arm.deb
+Size: 718200
+SHA256: 6a9be23d0ac4de2088c503664a6b98624ba4da65d1c4fcdb9cc6d8e15572df25
+SHA1: bcaa740118239942bac13d7377c36b35981d9201
+MD5sum: 1bffa6644ff0ebb6eebee4e5bb0a805f
+Description: A featureful, general-purpose sound server
+
+Package: pulseaudio-glib
+Architecture: arm
+Installed-Size: 36
+Maintainer: @termux
+Version: 14.2-4
+Homepage: https://www.freedesktop.org/wiki/Software/PulseAudio
+Depends: glib, pulseaudio (= 14.2-4)
+Priority: high
+Section: main
+Filename: pool/main/p/pulseaudio-glib/pulseaudio-glib_14.2-4_arm.deb
+Size: 10008
+SHA256: c65b8535f0afd48d8ed9cecdd12842d8bbf07543687e0d29efd30798a6d18e2c
+SHA1: b63cdd187b93b72058ee64de4861cc1683140a7d
+MD5sum: b97bdcb9330de215ba862f8f7d0e93bd
+Description: PulseAudio GLIB mainloop component
+
+Package: pulseaudio-glib-static
+Architecture: arm
+Installed-Size: 20
+Maintainer: @termux
+Version: 14.2-4
+Homepage: https://www.freedesktop.org/wiki/Software/PulseAudio
+Depends: pulseaudio-static, pulseaudio-glib, pulseaudio (= 14.2-4)
+Priority: high
+Section: main
+Filename: pool/main/p/pulseaudio-glib-static/pulseaudio-glib-static_14.2-4_arm.deb
+Size: 6328
+SHA256: 3c0280e05291022436e84f22425a5a93299322ba335d7c14a197d385ae5f9ee2
+SHA1: bdb00fe020ef7f2c371c9bd265f483dff126bd23
+MD5sum: 92d6fe872885d1ff364910ee779bf7a0
+Description: Static library for PulseAudio GLIB mainloop component
+
+Package: pulseaudio-static
+Architecture: arm
+Installed-Size: 3420
+Maintainer: @termux
+Version: 14.2-4
+Homepage: https://www.freedesktop.org/wiki/Software/PulseAudio
+Depends: pulseaudio (= 14.2-4)
+Priority: high
+Section: main
+Filename: pool/main/p/pulseaudio-static/pulseaudio-static_14.2-4_arm.deb
+Size: 704614
+SHA256: 499f61c84acc5e9ed6515153483f2456829daf530278fe2bd558133b020322c3
+SHA1: d1341d72c647a764bfb8ed13d455d29a9d17da76
+MD5sum: 080c85d9f2e9ba4f61c731a7e620a341
+Description: Static libraries for pulseaudio
+
 Package: python
 Architecture: arm
 Installed-Size: 45112
@@ -2703,6 +3018,39 @@ SHA256: 9e5d307275355deea95bf8747a9e79763ea533a655ecf94f8402e118d0d5076b
 SHA1: 9d11128561cb6a416e551b2f03da6b922e5c7cd3
 MD5sum: f04e1b2914a9c05f29a2ea7a2361bab7
 Description: GNU stream editor for filtering/transforming text
+
+Package: speexdsp
+Architecture: arm
+Installed-Size: 112
+Maintainer: @termux
+Version: 1.2.0-2
+Homepage: https://speex.org/
+Breaks: speexdsp-dev
+Replaces: speexdsp-dev
+Priority: high
+Section: main
+Filename: pool/main/s/speexdsp/speexdsp_1.2.0-2_arm.deb
+Size: 37888
+SHA256: ee93eced061caf1fe1334f83ae03fb3a958b2d2f06b6e4c31d9d13286b8a975c
+SHA1: d943d46866116bfd1681f90d4b926aeb5847b3e4
+MD5sum: 23d3532ccc5b9f6395aa0a26fc0fa07b
+Description: Speex audio processing library
+
+Package: speexdsp-static
+Architecture: arm
+Installed-Size: 64
+Maintainer: @termux
+Version: 1.2.0-2
+Homepage: https://speex.org/
+Depends: speexdsp (= 1.2.0-2)
+Priority: high
+Section: main
+Filename: pool/main/s/speexdsp-static/speexdsp-static_1.2.0-2_arm.deb
+Size: 29744
+SHA256: 82ae0ef87508cc50cde8798fafb41d1c64405758a835d56f5b31059f0e08c1f7
+SHA1: 682bc88756936017ccf9f3abc294c35911a49fb5
+MD5sum: ef1371cbd3e321bf777f70991cf6140e
+Description: Static libraries for speexdsp
 
 Package: sqlite
 Architecture: arm
