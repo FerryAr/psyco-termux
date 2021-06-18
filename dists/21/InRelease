@@ -4,32 +4,32 @@ Hash: SHA512
 Origin: ferryar.github.io/psyco-termux
 Label: ferryar.github.io/psyco-termux
 Codename: 21
-Date: Thu, 17 Jun 2021 23:23:59 UTC
+Date: Fri, 18 Jun 2021 06:07:08 UTC
 Architectures: arm
 Components: main
 MD5Sum:
- 953cf35e15d4bb32dc5502f072ff9209 92143 main/binary-arm/Packages
- a81b63aafd3c564964ab86f58b469995 28667 main/binary-arm/Packages.gz
+ 18f522fafda3804ce1cfe1274ffb471d 92683 main/binary-arm/Packages
+ be6fbaf92ede66cdfd2188451daeac77 28812 main/binary-arm/Packages.gz
  035a97f47b184a5882421b98f0104016 111 main/binary-arm/Release
 SHA1:
- d1daa7f75f7fdab29e634959d19f7c6794acfdf7 92143 main/binary-arm/Packages
- b524d6bff57eefb844ec8b526b0ff2dc50cafeaa 28667 main/binary-arm/Packages.gz
+ f8901553b35855aa5cd2d61761d4c76ad3e1cdf3 92683 main/binary-arm/Packages
+ a0dda3e777839a7d8a1a75421e29de519684c6ea 28812 main/binary-arm/Packages.gz
  90af55c5d0019bbd8df492dbea57081d74300c05 111 main/binary-arm/Release
 SHA256:
- 056185d8784bd065b4a3c228b8faed356ae010ab090b30663663730d8daec84f 92143 main/binary-arm/Packages
- ba7e4590faca5ea77d542f1581aa8103dcdf12cecc1ce70cfa173b9291909b9c 28667 main/binary-arm/Packages.gz
+ b0d6382a7ec00edb7ace8dd23e7c404b7e0c74b70c888bd12e68655f1c853f5b 92683 main/binary-arm/Packages
+ 8d6e2d820a264a7c2e465ce8af78e125b4d14e6a270e85a002a437453fd75493 28812 main/binary-arm/Packages.gz
  70cc5e81e98e4594e604760093bee7830ba1affc9e0b5ca6ff635f33dd004f54 111 main/binary-arm/Release
 -----BEGIN PGP SIGNATURE-----
 
-iQGzBAEBCgAdFiEEEBkEYHGXuh8Jf+oucveulKvWwMMFAmDL2ZYACgkQcveulKvW
-wMP0Twv+L4bGvowwD2hHOGnuxlYygehPwVnSahFVrFaRVrg2QeZ6LUzhNdT97vHX
-lCoIBOorXI59LnRCOKMQof/aovtGp8DIrybd+E1hmSv1+MAJFOB18GrFEq0LH/Kq
-aMoJj6C2+Gm0a/rZxMW6wHWOGLdQ9++qs6856qnL/5mLdUAfE0q3vxDPCmwmXVAl
-k5abjrDO2qpcZSgyQ0C9uYx5dRu/oNw/zoI8Gi28SBBHE7TQeVnzXDshim1vtJ2h
-e0mz0O8DtneB6zP8xo7U8X9DMe5+69kizjeMP7P43szlZncJ+rrnd/Xuy3OBqyJB
-wS+nSvofnEX/xoa57qEKPdu7NrlWrvNHKnXtjfP8XJGi/mfx76SdzE4Zq9Q9RJWY
-DV8VXstGtGMbqLZXxRdkH/9UW2bR/QldMv9ebuiKZ/hDtyJMACgu+KRjkZZ2jihN
-kGAeXNtjDLdpI9izMF9fVt44/xOlW6JBjEVqDDPu/NQnQiPVQu3A2FW5parIR9Oj
-MZe0m/l1
-=ky1I
+iQGzBAEBCgAdFiEEEBkEYHGXuh8Jf+oucveulKvWwMMFAmDMOBIACgkQcveulKvW
+wMMR3gwAg/2+BDU0sj5WFHZpY3C3VMttUm8r1Z8VYQ+qFjtLb+1H/Y0r7xYA9rz4
+AThQ48ZS65oTvXsk+Pg2hAAm3EWnoqH1NlQnAEZSrdrkaiVVa7R0MNP2eRl6tAnb
+I5AfTpYWmyRnT3xAQgqe9MvKEeZIklAavakwbgWEdpFRykcRqFdW4l1APskiwMDd
+GNleCGiGCWFkTV8qqiUjT2Ar12TBogKi67sWovXBE7Eq63JSmG9pG64wAsUkrx69
+pv7ycrxEaID1WeEGd5EJOmL/qm/lCBQgvuq0D9lFhTQk4uFbLSKS+oIAiX2+Lh0R
+rQqXNJ7jpg+hujE+uKTRWAZZMmmbAhD1VxVftGj/NtlHVXFi61fGL42kfxuAyUWI
+BvlTSM/2bB3EndxDUH5ICaJsgGTPXhgHuKakZ8PNzAj1grHEifIkvic9WSe9UqNZ
+gd67DoD3kCT3FX00ltYo3vAadophNcc/us7CjrtrZifH5Q6QKLW0kNftHTVMcSx5
+KT1N19CA
+=Lhi1
 -----END PGP SIGNATURE-----

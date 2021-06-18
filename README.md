@@ -3,7 +3,7 @@ psyco-termux
 Termux packages from master branch of [termux-packages](https://github.com/termux/termux-packages) repository for Android 5 API 21 arm
 
 ## Installation
-1. Add gpg key : `wget -qO - https://raw.githubusercontent .com/FerryAr/psyco-termux/main/ferryar.gpg | apt-key add -`
+1. Add gpg key : `wget -qO - https://raw.githubusercontent.com/FerryAr/psyco-termux/main/ferryar.gpg | apt-key add -`
 2. Add my repo to sources.list : `echo deb https://ferryar.github.io/psyco-termux 21 main >> $PREFIX/etc/apt/sources.list`
 3. apt update && apt upgrade
 

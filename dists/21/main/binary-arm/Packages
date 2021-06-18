@@ -2291,6 +2291,22 @@ SHA1: 8e734a43410b8939e96d2fd4da4c05ff3ab7518a
 MD5sum: dce9ebf1ec08eaf814b74c91156effe1
 Description: Library for text-based user interfaces in a terminal-independent manner
 
+Package: ncurses-ui-libs
+Architecture: arm
+Installed-Size: 112
+Maintainer: @termux
+Version: 6.2.20200725-4
+Homepage: https://invisible-island.net/ncurses/
+Depends: ncurses (= 6.2.20200725-4)
+Priority: high
+Section: main
+Filename: pool/main/n/ncurses-ui-libs/ncurses-ui-libs_6.2.20200725-4_arm.deb
+Size: 31196
+SHA256: 04dba5430a95eac19550215062b0783708d41901de7ca419a072d0c08829176e
+SHA1: 937c910384d4a9663e1de09ff9376bbbf3262f9f
+MD5sum: 9785e036fc4ee651a0007d9ec3d09ea3
+Description: Libraries for terminal user interfaces based on ncurses
+
 Package: nettle
 Architecture: arm
 Installed-Size: 80
