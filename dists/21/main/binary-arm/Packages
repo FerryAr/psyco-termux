@@ -2852,24 +2852,6 @@ SHA1: 44e810877b21362ac134b6ce8ba7554e4d2e4832
 MD5sum: ab07a224ca28260350947339b98ac5f3
 Description: Static libraries for postgresql
 
-Package: pulseaudio
-Architecture: arm
-Installed-Size: 3312
-Maintainer: @termux
-Version: 14.2-4
-Homepage: https://www.freedesktop.org/wiki/Software/PulseAudio
-Breaks: libpulseaudio-dev, libpulseaudio
-Depends: libltdl, libsndfile, libandroid-glob, libsoxr, speexdsp, libwebrtc-audio-processing
-Replaces: libpulseaudio-dev, libpulseaudio
-Priority: high
-Section: main
-Filename: pool/main/p/pulseaudio/pulseaudio_14.2-4_arm.deb
-Size: 718200
-SHA256: 6a9be23d0ac4de2088c503664a6b98624ba4da65d1c4fcdb9cc6d8e15572df25
-SHA1: bcaa740118239942bac13d7377c36b35981d9201
-MD5sum: 1bffa6644ff0ebb6eebee4e5bb0a805f
-Description: A featureful, general-purpose sound server
-
 Package: pulseaudio-glib
 Architecture: arm
 Installed-Size: 36

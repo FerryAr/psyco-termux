@@ -18,3 +18,4 @@ Termux packages from master branch of [termux-packages](https://github.com/termu
 - mariadb
 - openssh
 - krb5
+- pulseaudio (sles didn't work)
