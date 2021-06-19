@@ -693,16 +693,16 @@ Package: icu-devtools
 Architecture: arm
 Installed-Size: 608
 Maintainer: @termux
-Version: 68.2-1
+Version: 69.1
 Homepage: http://site.icu-project.org/home
-Depends: libicu (= 68.2-1)
+Depends: libicu (= 69.1)
 Priority: high
 Section: main
-Filename: pool/main/i/icu-devtools/icu-devtools_68.2-1_arm.deb
-Size: 172554
-SHA256: 2de7e753323f977a0806f3bd7fec8e0804bfde20c56843bd5482e58577888b5a
-SHA1: ef8e37688dcc6039856ba98f6470cadf2d4f723d
-MD5sum: 797302f1b9ae0be27464a2e8d70af419
+Filename: pool/main/i/icu-devtools/icu-devtools_69.1_arm.deb
+Size: 173298
+SHA256: 2b0261da69f0bd304586d334589cfd69d4e3f7a626a2b837b7dd9ee6b9c5bcf2
+SHA1: 8062e33096edbc93012098e782b8626251d96e77
+MD5sum: 1d552a15beb73be1011c0518b82a82f5
 Description: Development utilities for International Components for Unicode
 
 Package: ldns
@@ -1348,36 +1348,36 @@ Description: Static libraries for libiconv
 
 Package: libicu
 Architecture: arm
-Installed-Size: 36548
+Installed-Size: 36688
 Maintainer: @termux
-Version: 68.2-1
+Version: 69.1
 Homepage: http://site.icu-project.org/home
 Breaks: libicu-dev
 Depends: libc++
 Replaces: libicu-dev
 Priority: high
 Section: main
-Filename: pool/main/libi/libicu/libicu_68.2-1_arm.deb
-Size: 8872944
-SHA256: 9f1adfa57cf540103d740c05d26cc67509a1f697115bd628c76d29f70041710e
-SHA1: 76bf7c571fb298b48d78ba7fe4dc392e8ca9bd28
-MD5sum: 30f723bc4541f03fb9152c7cffc41780
+Filename: pool/main/libi/libicu/libicu_69.1_arm.deb
+Size: 8924708
+SHA256: 4f34ecad5b0557226e6d1fbebf974ee5a21de6424630926e8dbc0b06a940a42f
+SHA1: 6a73e0dcb1690936c8735b01140affca543cdded
+MD5sum: 7d0b9912ca2e16c096a1d44fe9068354
 Description: International Components for Unicode library
 
 Package: libicu-static
 Architecture: arm
-Installed-Size: 37336
+Installed-Size: 37740
 Maintainer: @termux
-Version: 68.2-1
+Version: 69.1
 Homepage: http://site.icu-project.org/home
-Depends: libicu (= 68.2-1)
+Depends: libicu (= 69.1)
 Priority: high
 Section: main
-Filename: pool/main/libi/libicu-static/libicu-static_68.2-1_arm.deb
-Size: 8801128
-SHA256: 2624f4e96efa6a178ea267feaf2e5e8659ab385dbadeb5567e07efbaebd44e73
-SHA1: 36400497ff10d60330d884fa3bfb134c62e2f44f
-MD5sum: f4b06df93bf3f66cdcba7152718061e5
+Filename: pool/main/libi/libicu-static/libicu-static_69.1_arm.deb
+Size: 8870936
+SHA256: 078d8c674147715b0049f9bc62dc3e2f41cc11d8684e5c49dd552fb0a73de3c8
+SHA1: 68f51c47c7fc05fe15d93f464f7b806d9e19059e
+MD5sum: 0fe8ef5fdb4219217ab13fdea16c2ea3
 Description: Static libraries for libicu
 
 Package: libidn2
@@ -2722,69 +2722,85 @@ Description: Static libraries for pcre2
 
 Package: php
 Architecture: arm
-Installed-Size: 41900
+Installed-Size: 41904
 Maintainer: @termux
-Version: 8.0.7
+Version: 8.0.7-2
 Homepage: https://php.net
 Depends: freetype, libandroid-glob, libandroid-support, libbz2, libcrypt, libcurl, libgd, libgmp, libiconv, liblzma, libsqlite, libxml2, libxslt, libzip, oniguruma, openssl, pcre2, readline, zlib, libicu, libffi, tidy
 Conflicts: php-mysql, php-dev
 Replaces: php-mysql, php-dev
 Priority: high
 Section: main
-Filename: pool/main/p/php/php_8.0.7_arm.deb
-Size: 7210732
-SHA256: 03c01fe47b7fa2d727cc6817d3a5f7462b61218a347fbd081668129f0ae17153
-SHA1: 4cc4cc8afcf3b5823cf0fda383bd3d536626b7aa
-MD5sum: 96ac2ec89137a4a031bda8d5715bfab3
+Filename: pool/main/p/php/php_8.0.7-2_arm.deb
+Size: 7213178
+SHA256: 646d4698d3ae2de27690a54162caca192e736b3b18e3c4b0c84476ce547e0db9
+SHA1: f0007f6aaa16b9256f5f3c8a51ffed254aca652e
+MD5sum: 5293c9d5691677c9ea86d0ce0d5118ea
 Description: Server-side, HTML-embedded scripting language
 
 Package: php-apache
 Architecture: arm
 Installed-Size: 11792
 Maintainer: @termux
-Version: 8.0.7
+Version: 8.0.7-2
 Homepage: https://php.net
-Depends: apache2, php (= 8.0.7)
+Depends: apache2, php (= 8.0.7-2)
 Priority: high
 Section: main
-Filename: pool/main/p/php-apache/php-apache_8.0.7_arm.deb
-Size: 2128522
-SHA256: 4ce209e7f65b9420727cac4d312532673ad574eaae361a4192b0a52fe6fb8fd3
-SHA1: d9e88feb918dc52d399fa9c834558026ab59f7f3
-MD5sum: 4a17ce3ee4473e0d61dbedb3992394d0
+Filename: pool/main/p/php-apache/php-apache_8.0.7-2_arm.deb
+Size: 2130088
+SHA256: c294ab9bf7e4dbb1b75e1e89dd7afe5af5971417cef11deb43b53694b9aab1ce
+SHA1: cd0d456578613e5f59b33024390fe6130c7e7fbd
+MD5sum: c54a72fbf0bfb178ed1b9bb8df82fc4c
 Description: Apache 2.0 Handler module for PHP
 
 Package: php-fpm
 Architecture: arm
 Installed-Size: 11860
 Maintainer: @termux
-Version: 8.0.7
+Version: 8.0.7-2
 Homepage: https://php.net
-Depends: php (= 8.0.7)
+Depends: php (= 8.0.7-2)
 Priority: high
 Section: main
-Filename: pool/main/p/php-fpm/php-fpm_8.0.7_arm.deb
-Size: 2178674
-SHA256: d79171a132a5579ef4ff785dbe12ecbf10db0ff95614e0a92cad6709a1271e17
-SHA1: b56a17f7cd28c231e24647ffca730751176d07d5
-MD5sum: 5cb33f2692e48e4ed1fef776c0614dfb
+Filename: pool/main/p/php-fpm/php-fpm_8.0.7-2_arm.deb
+Size: 2176654
+SHA256: 09c40fa38f6b10336d6ad9cd77674780724f0dd45e79987d666b7505ddeecb65
+SHA1: 52ef17ec49ee1c232526c79f73ba515e500a29dd
+MD5sum: e5efdd4c9008770c13fd214d879e3e1d
 Description: FastCGI Process Manager for PHP
 
 Package: php-pgsql
 Architecture: arm
 Installed-Size: 120
 Maintainer: @termux
-Version: 8.0.7
+Version: 8.0.7-2
 Homepage: https://php.net
-Depends: apr-util, postgresql, php (= 8.0.7)
+Depends: apr-util, postgresql, php (= 8.0.7-2)
 Priority: high
 Section: main
-Filename: pool/main/p/php-pgsql/php-pgsql_8.0.7_arm.deb
-Size: 42918
-SHA256: fb33306c0cd4bb8ada93c2d62be790d4f0643da651903cb8dc2db0f7672e5931
-SHA1: 79884d5a7e302ae1406be36feeb5568b2abffd3d
-MD5sum: 553c5c788b593b90b9123f409a4e1341
+Filename: pool/main/p/php-pgsql/php-pgsql_8.0.7-2_arm.deb
+Size: 42912
+SHA256: 1ba4b498b786e73fa19c643561c42b88f766653ad5636c286b0a54894da32f07
+SHA1: 8c70183919d76bd5edaba579c3e1eb5cdb1f306d
+MD5sum: 60c69be0494d171acacdfc8493b2bd0c
 Description: PostgreSQL modules for PHP
+
+Package: phpmyadmin
+Architecture: arm
+Installed-Size: 60972
+Maintainer: @termux
+Version: 5.1.0
+Homepage: https://www.phpmyadmin.net
+Depends: apache2, php
+Priority: high
+Section: main
+Filename: pool/main/p/phpmyadmin/phpmyadmin_5.1.0_arm.deb
+Size: 7977532
+SHA256: 5b9d5564c1d3315b0b5c89dc3fb7e5e3caa7baf2d6dac7f7b492e5213215ea1a
+SHA1: 862cd41703251568e6893027aa81bb15b82e00c8
+MD5sum: f292c9565b9fce213ad08badd9504168
+Description: A PHP tool for administering MySQL databases
 
 Package: pinentry
 Architecture: arm
@@ -2804,36 +2820,36 @@ Description: Dialog allowing secure password entry
 
 Package: postgresql
 Architecture: arm
-Installed-Size: 22480
+Installed-Size: 22484
 Maintainer: @termux
-Version: 13.2
+Version: 13.3
 Homepage: https://www.postgresql.org
 Breaks: postgresql-contrib (<= 10.3-1), postgresql-dev
 Depends: openssl, libcrypt, readline, libandroid-shmem, libuuid, libxml2, libicu, zlib
 Replaces: postgresql-contrib (<= 10.3-1), postgresql-dev
 Priority: high
 Section: main
-Filename: pool/main/p/postgresql/postgresql_13.2_arm.deb
-Size: 4973940
-SHA256: 6b5786fe03344f0ccc36ebe13433cd40a747139efa61ac8296a8c6f0fa73a592
-SHA1: f36c296e3f20751937d894825b647510f0313da0
-MD5sum: abc8ace3119868ae4fc482615ae7fdae
+Filename: pool/main/p/postgresql/postgresql_13.3_arm.deb
+Size: 4980206
+SHA256: d8b874a59abb590bfbcf9ec7ffee737f903fba36e4aadeb5390a767715f43583
+SHA1: 994e3676ac14606169040c571bf74b02ba028aec
+MD5sum: 01d9ecb4bee265f899946bb1c4592a05
 Description: Object-relational SQL database
 
 Package: postgresql-static
 Architecture: arm
 Installed-Size: 896
 Maintainer: @termux
-Version: 13.2
+Version: 13.3
 Homepage: https://www.postgresql.org
-Depends: postgresql (= 13.2)
+Depends: postgresql (= 13.3)
 Priority: high
 Section: main
-Filename: pool/main/p/postgresql-static/postgresql-static_13.2_arm.deb
-Size: 201624
-SHA256: 4607ec8d30c6bb5705727271834e61d2622220aa2d9768ffe357ddf94877a535
-SHA1: 40e8857132ec717ce97e0e9cf2fbcbe2ce75b982
-MD5sum: 9580c9e588093469a77ec3082b88fdb5
+Filename: pool/main/p/postgresql-static/postgresql-static_13.3_arm.deb
+Size: 202904
+SHA256: 5f58d9b3f7cf14f7bedcb3b3ae47ed1fc9a0444f0813a153ccfdcf8b65c96185
+SHA1: 44e810877b21362ac134b6ce8ba7554e4d2e4832
+MD5sum: ab07a224ca28260350947339b98ac5f3
 Description: Static libraries for postgresql
 
 Package: pulseaudio
