@@ -104,6 +104,22 @@ SHA1: 10ccfb833d07f2fe2304cb8cce86601229588654
 MD5sum: c2d184c1bcba58a2a45456cdacdb141c
 Description: A sh-compatible shell that incorporates useful features from the Korn shell (ksh) and C shell (csh)
 
+Package: bat
+Architecture: arm
+Installed-Size: 2988
+Maintainer: @termux
+Version: 0.18.1
+Homepage: https://github.com/sharkdp/bat
+Depends: less, libgit2
+Priority: high
+Section: main
+Filename: pool/main/b/bat/bat_0.18.1_arm.deb
+Size: 1628384
+SHA256: b9365a36ef0be1026b2e8daa00435c926ffe3508c88f8ab3c2ff7decb933037e
+SHA1: 6692a9aa9ebea28f05735f80062bfb3043ef6be8
+MD5sum: 8bfd63ca66135c57a5a54ab661470335
+Description: A cat(1) clone with wings
+
 Package: busybox
 Architecture: arm
 Installed-Size: 656
@@ -436,6 +452,40 @@ SHA256: efa7b726630a914fc5b5d6d71573c23cb2993d3a065d22596d034303dec20326
 SHA1: 0153985cd4fe1ddd4aae584ae35f8655e1bba264
 MD5sum: 91d9c9cfd7c07a6472e6675981c4a44f
 Description: Static libraries for freetype
+
+Package: fribidi
+Architecture: arm
+Installed-Size: 368
+Maintainer: @termux
+Version: 1.0.10
+Homepage: https://github.com/fribidi/fribidi/
+Breaks: fribidi-dev
+Depends: glib
+Replaces: fribidi-dev
+Priority: high
+Section: main
+Filename: pool/main/f/fribidi/fribidi_1.0.10_arm.deb
+Size: 62384
+SHA256: 9a87bbbb5e293f012548a89b5a60cf5fe34e5f16684a19693757074c9bf2d69f
+SHA1: 706604bff74586f02a430855f4ea116b9a93914f
+MD5sum: 76c2840fae6b49d24f0d4533dc57ecca
+Description: Implementation of the Unicode Bidirectional Algorithm
+
+Package: fribidi-static
+Architecture: arm
+Installed-Size: 124
+Maintainer: @termux
+Version: 1.0.10
+Homepage: https://github.com/fribidi/fribidi/
+Depends: fribidi (= 1.0.10)
+Priority: high
+Section: main
+Filename: pool/main/f/fribidi-static/fribidi-static_1.0.10_arm.deb
+Size: 18416
+SHA256: 9f44787bbafd43dcc2a55a7acdd1cb8d8738085b6470717ec695944ca5412edd
+SHA1: d64a24d1f7b0cca0687cb5905e68e03c9e10bd5a
+MD5sum: 6710fbda1cd632369e18d85178dd292e
+Description: Static libraries for fribidi
 
 Package: gawk
 Architecture: arm
@@ -1213,6 +1263,24 @@ SHA1: c9e2d343cb5a2874aaab36dd71979628329c2a2c
 MD5sum: d4c96bc1b8709ddcd4e3b2eeaf3531bd
 Description: Static libraries for libgd
 
+Package: libgit2
+Architecture: arm
+Installed-Size: 1564
+Maintainer: @termux
+Version: 1.1.0
+Homepage: https://libgit2.github.com/
+Breaks: libgit2-dev
+Depends: libcurl, openssl, libssh2, zlib
+Replaces: libgit2-dev
+Priority: high
+Section: main
+Filename: pool/main/libg/libgit2/libgit2_1.1.0_arm.deb
+Size: 488112
+SHA256: 072d7a5ff58d44017d3f15e974dd183be88218931971ca3dee6d6bad4a8da528
+SHA1: 1d49bc6d002463987724cd3c66dd07520ce31033
+MD5sum: d8eec4fc8086858d7279a4fceaf7e10d
+Description: C library implementing Git core methods
+
 Package: libgmp
 Architecture: arm
 Installed-Size: 1052
@@ -1512,6 +1580,23 @@ SHA1: 2a85ec14815e8e04e9b6ff8448b1ee5ee0e64f7d
 MD5sum: 36dc84a832a4f44ce09b8f31e2939bbd
 Description: Library for dlopening libraries
 
+Package: liblua53
+Architecture: arm
+Installed-Size: 212
+Maintainer: @termux
+Version: 5.3.5-6
+Homepage: https://www.lua.org/
+Breaks: liblua-dev, liblua (<< 5.3.5-6)
+Replaces: liblua-dev, liblua (<< 5.3.5-6)
+Priority: high
+Section: main
+Filename: pool/main/libl/liblua53/liblua53_5.3.5-6_arm.deb
+Size: 80486
+SHA256: 88b3db8cd4e1cc39473ad27741aa9375f14bd926899fbe7d8a6a012cfe7effca
+SHA1: 93a0dfb2bcbf0493cf119cd3294a14880a46acbd
+MD5sum: 0ee4ddaf638d8519530893d5f68ca639
+Description: Shared library for the Lua interpreter (v5.3.x)
+
 Package: liblz4
 Architecture: arm
 Installed-Size: 272
@@ -1579,6 +1664,39 @@ SHA1: fcfcfc1046bfdeb87666c8024cf20339e350fc50
 MD5sum: 4b6bd688e99f1dcefd6e3e03947e0e20
 Description: Static libraries for liblzma
 
+Package: liblzo
+Architecture: arm
+Installed-Size: 372
+Maintainer: @termux
+Version: 2.10-2
+Homepage: http://www.oberhumer.com/opensource/lzo
+Breaks: liblzo-dev
+Replaces: liblzo-dev
+Priority: high
+Section: main
+Filename: pool/main/libl/liblzo/liblzo_2.10-2_arm.deb
+Size: 73142
+SHA256: 8d7476710c5f27e43d2336ac891f7b8432d94b291b22623de8678f2442e8c524
+SHA1: e564759768e00cff5608983603c93da203fa3f25
+MD5sum: b5a8adad6a91d9f5b9f629a123781307
+Description: Portable lossless data compression library
+
+Package: liblzo-static
+Architecture: arm
+Installed-Size: 148
+Maintainer: @termux
+Version: 2.10-2
+Homepage: http://www.oberhumer.com/opensource/lzo
+Depends: liblzo (= 2.10-2)
+Priority: high
+Section: main
+Filename: pool/main/libl/liblzo-static/liblzo-static_2.10-2_arm.deb
+Size: 36280
+SHA256: 986858619096c34cad802784cd5cf0b1ae635a2aa41d4e93a968e30ff5c7a188
+SHA1: 2bf52c2f7cc06eb2135f7e43f75081fe2f824c96
+MD5sum: 0476fdd927528bb128e7f7e76e223bf4
+Description: Static libraries for liblzo
+
 Package: libmpfr
 Architecture: arm
 Installed-Size: 780
@@ -1612,6 +1730,39 @@ SHA256: 38030023c5da96136cd03305e316e094ce7264253902e23df42290c5c6d387b7
 SHA1: 9a56f5a1e351e319ee8b1cf15552c3b219391f22
 MD5sum: b756caadc596f0a6be9ed73d05bd7157
 Description: Static libraries for libmpfr
+
+Package: libmsgpack
+Architecture: arm
+Installed-Size: 748
+Maintainer: @termux
+Version: 3.3.0-3
+Homepage: https://github.com/msgpack/msgpack-c/
+Breaks: libmsgpack-dev
+Replaces: libmsgpack-dev
+Priority: high
+Section: main
+Filename: pool/main/libm/libmsgpack/libmsgpack_3.3.0-3_arm.deb
+Size: 48216
+SHA256: 15f144c3102f47e4661807031bc908570fc6e9415e073383df702991dcb15aa0
+SHA1: a0de33617ade16b6264e7484495029c53e6ed6e9
+MD5sum: 3e0341c961b5a1c05889971f815a3c6f
+Description: MessagePack implementation for C and C++
+
+Package: libmsgpack-static
+Architecture: arm
+Installed-Size: 24
+Maintainer: @termux
+Version: 3.3.0-3
+Homepage: https://github.com/msgpack/msgpack-c/
+Depends: libmsgpack (= 3.3.0-3)
+Priority: high
+Section: main
+Filename: pool/main/libm/libmsgpack-static/libmsgpack-static_3.3.0-3_arm.deb
+Size: 9202
+SHA256: 4f289e162fc2603ee9fbd6fde22067da551802dca63d903f5c6cc42df1f813f1
+SHA1: 2bce30461418e5bd9e35c66ed3706973060fd2e7
+MD5sum: ae65b6fcf16ff264fd837b48f1491034
+Description: Static libraries for libmsgpack
 
 Package: libnettle
 Architecture: arm
@@ -1761,6 +1912,39 @@ SHA256: 75ab696c518d3c691dada087a39cccc3b5419e2f04c1ffa9db232f3a75351294
 SHA1: 6136887814c61b3bc950f6ef4aeada415fd745dc
 MD5sum: ce1419be546dedc64eb8998432ce1430
 Description: Posix-compatible runtime libraries for libpcre
+
+Package: libpixman
+Architecture: arm
+Installed-Size: 524
+Maintainer: @termux
+Version: 0.40.0-1
+Homepage: http://www.pixman.org/
+Breaks: libpixman-dev
+Replaces: libpixman-dev
+Priority: high
+Section: main
+Filename: pool/main/libp/libpixman/libpixman_0.40.0-1_arm.deb
+Size: 147124
+SHA256: cc35fe78073837c0fc8570d3b1e232d0cfc50ee592a83bd243a0d3578a7b0957
+SHA1: c7d70b5390185382bce87276c90fe9c9c4e7b997
+MD5sum: 5bc3124cda8e5973e9db3c7a3efea487
+Description: Low-level library for pixel manipulation
+
+Package: libpixman-static
+Architecture: arm
+Installed-Size: 628
+Maintainer: @termux
+Version: 0.40.0-1
+Homepage: http://www.pixman.org/
+Depends: libpixman (= 0.40.0-1)
+Priority: high
+Section: main
+Filename: pool/main/libp/libpixman-static/libpixman-static_0.40.0-1_arm.deb
+Size: 153166
+SHA256: 775d8c3b3bb15366226d3ce7b01f265c82184fbd2228b12a8c4dfe9e6ad73a54
+SHA1: 2bbddc258fca9f54dc29ba83902da70b7751053f
+MD5sum: 288f6de01fd505e72485d9795dcdaaca
+Description: Static libraries for libpixman
 
 Package: libpng
 Architecture: arm
@@ -1915,6 +2099,24 @@ SHA1: dbba5917c1c97b0c3e2bd88bfd33dba937dfb705
 MD5sum: 98d3eb10582854c57ba86e0809b1bd58
 Description: Static libraries for libssh2
 
+Package: libtermkey
+Architecture: arm
+Installed-Size: 48
+Maintainer: @termux
+Version: 0.22-2
+Homepage: http://www.leonerd.org.uk/code/libtermkey/
+Breaks: libtermkey-dev
+Depends: libunibilium
+Replaces: libtermkey-dev
+Priority: high
+Section: main
+Filename: pool/main/libt/libtermkey/libtermkey_0.22-2_arm.deb
+Size: 17434
+SHA256: 2f5de56e3e47815f7df5e07bffeb9e3208a06e5e64359ec6a6c075bc2de46ede
+SHA1: d13abf039f353e4e17be693f1a3feecfb0584f2a
+MD5sum: 0a43b09c5b4bf683526d9f1be27a1c77
+Description: Library for processing of keyboard entry for terminal-based programs
+
 Package: libtiff
 Architecture: arm
 Installed-Size: 2304
@@ -1983,6 +2185,23 @@ SHA1: 4f61a4f686cdcd272d2a441e3108a2522f23467d
 MD5sum: e1b3e940497749e54f5b668e9fd86091
 Description: Generic library support script hiding the complexity of using shared libraries behind a consistent, portable interface
 
+Package: libunibilium
+Architecture: arm
+Installed-Size: 76
+Maintainer: @termux
+Version: 2.1.1
+Homepage: https://github.com/neovim/unibilium
+Breaks: libunibilium-dev
+Replaces: libunibilium-dev
+Priority: high
+Section: main
+Filename: pool/main/libu/libunibilium/libunibilium_2.1.1_arm.deb
+Size: 20952
+SHA256: ecbb456ffc20e080fc82ccb71a385cda407d519d2932a6b28d609c6308997585
+SHA1: 100a5a16b2411333995fa8f173ef3c6fd89d2c8d
+MD5sum: 1f9ccafd9a04162feea9598445ab39f0
+Description: Terminfo parsing library
+
 Package: libunistring
 Architecture: arm
 Installed-Size: 2584
@@ -2017,6 +2236,21 @@ SHA1: 049a862070ac534ddd5c01b2e10af052063af9e9
 MD5sum: 24821ba8898dd6ba87f24ad8bdb4939b
 Description: Static libraries for libunistring
 
+Package: libutil
+Architecture: arm
+Installed-Size: 48
+Maintainer: Fredrik Fornwall @fornwall
+Version: 0.4-2
+Homepage: https://refspecs.linuxbase.org/LSB_2.1.0/LSB-generic/LSB-generic/libutil.html
+Priority: high
+Section: main
+Filename: pool/main/libu/libutil/libutil_0.4-2_arm.deb
+Size: 2544
+SHA256: b4d058046cb5ac564de9c7b3a6cd2569c3fd2f8bf015799225244e8ee829e06c
+SHA1: b74682431908d832338df352f519bde618d614b6
+MD5sum: 429cf036285804662c95b5107a8058f6
+Description: Library with terminal functions
+
 Package: libuuid
 Architecture: arm
 Installed-Size: 36
@@ -2049,6 +2283,39 @@ SHA256: 08e2345c138e049453e88b7fbb27f8ad4ba7abec016afa71e0027523cf31d830
 SHA1: 16c423462def899df532bde0b70e440033e25880
 MD5sum: 9f6b05a7428e9065343a493527beaff0
 Description: Static libraries for libuuid
+
+Package: libuv
+Architecture: arm
+Installed-Size: 244
+Maintainer: @termux
+Version: 1.41.0
+Homepage: https://libuv.org
+Breaks: libuv-dev
+Replaces: libuv-dev
+Priority: high
+Section: main
+Filename: pool/main/libu/libuv/libuv_1.41.0_arm.deb
+Size: 74092
+SHA256: 4a1759b9915ffbf989ae3db167ef6364b3808ee914128821b3cc02d0b96fcf8b
+SHA1: b47127d84b09fdf9be3f96f72d0e7c97cd538e9e
+MD5sum: e6b27eed7ee520e0be550c434095c3a4
+Description: Support library with a focus on asynchronous I/O
+
+Package: libuv-static
+Architecture: arm
+Installed-Size: 976
+Maintainer: @termux
+Version: 1.41.0
+Homepage: https://libuv.org
+Depends: libuv (= 1.41.0)
+Priority: high
+Section: main
+Filename: pool/main/libu/libuv-static/libuv-static_1.41.0_arm.deb
+Size: 224262
+SHA256: ec76c47aab86f03800d9206a27d7c95844285e2525ee4ff4f33ea50135bc7a1d
+SHA1: 7bc03668eac24b3324a221dbc9fad5a6ea8ebe4c
+MD5sum: f7419e3ea09166ee0d7548ebb0e00518
+Description: Static libraries for libuv
 
 Package: libvorbis
 Architecture: arm
@@ -2083,6 +2350,23 @@ SHA256: 39ea8578812ca1f661bf27171156ba2f979ad6cbdd431e4bb1a638b5fa6366d1
 SHA1: e1db0c6dd0ad2783e5d49813028bdfc17d8222c4
 MD5sum: 1cd3715c725fabf07b7659309303a8a1
 Description: Static libraries for libvorbis
+
+Package: libvterm
+Architecture: arm
+Installed-Size: 116
+Maintainer: @termux
+Version: 19.09.17-1
+Homepage: http://libvterm.sourceforge.net/
+Breaks: libvterm-dev
+Replaces: libvterm-dev
+Priority: high
+Section: main
+Filename: pool/main/libv/libvterm/libvterm_19.09.17-1_arm.deb
+Size: 29710
+SHA256: 6fa2f15180f6d694085212b879ed49ac18406bd8d36a14b7d88e9d5e9e7ffc23
+SHA1: b3809c01a316ce8d0ea41b4597bc11bd1481688d
+MD5sum: fb07d64140c126ce6022dfba0536ad4f
+Description: Terminal emulator library
 
 Package: libwebp
 Architecture: arm
@@ -2507,6 +2791,40 @@ SHA1: 2834a8c3a4154115dd06543d51a90714f3bac9df
 MD5sum: 4befc64462245b4cd5e0b3f4be96b8b9
 Description: Library for reading, creating, and modifying zip archives
 
+Package: lua53
+Architecture: arm
+Installed-Size: 236
+Maintainer: @termux
+Version: 5.3.5-6
+Homepage: https://www.lua.org/
+Depends: readline, liblua53 (= 5.3.5-6)
+Breaks: lua (<< 5.3.5-6)
+Replaces: lua (<< 5.3.5-6)
+Priority: high
+Section: main
+Filename: pool/main/l/lua53/lua53_5.3.5-6_arm.deb
+Size: 81780
+SHA256: 03df85a7c5bd45d9ae4705a1722669a11b3bc9321c8f1b4c1bcc013419c88140
+SHA1: 4ecb5f4734de5e3058f20f587f377b3d9f5d364b
+MD5sum: f61e47ad27517ec9016327b983945880
+Description: Simple, extensible, embeddable programming language
+
+Package: luv
+Architecture: arm
+Installed-Size: 132
+Maintainer: @termux
+Version: 1.36.0-0-0
+Homepage: https://github.com/luvit/luv
+Depends: liblua53, libuv
+Priority: high
+Section: main
+Filename: pool/main/l/luv/luv_1.36.0-0-0_arm.deb
+Size: 35864
+SHA256: e7887bb3625a1621be6d8986bdd95dc9f87b0e174577ab480feaace7073e6dcd
+SHA1: 82c49249bd22d47079ba7c14fbdb3e07571be9ed
+MD5sum: 5b1584c18433df4f3e73b1d3297500a0
+Description: Bare libuv bindings for lua
+
 Package: lz4
 Architecture: arm
 Installed-Size: 240
@@ -2522,6 +2840,22 @@ SHA256: 8d53687f8226d0ed4c7b8614531af434ff93e916c2538575a435c6e9c3cc09f4
 SHA1: f4e8385f1409f77e5f4689ee05ce3d958b74a446
 MD5sum: 94c51cdfcee1ca5b8b261a70f7654e32
 Description: Fast LZ compression algorithm tool
+
+Package: nano
+Architecture: arm
+Installed-Size: 720
+Maintainer: @termux
+Version: 5.7
+Homepage: https://www.nano-editor.org/
+Depends: libandroid-support, libandroid-glob, ncurses
+Priority: high
+Section: main
+Filename: pool/main/n/nano/nano_5.7_arm.deb
+Size: 203760
+SHA256: e35677899fc453d941c95e88056a4370f1b53a62ab293e1fe550e459328c8b42
+SHA1: d405c7cc0b862cd6a737edb32f1e7b7185abac5f
+MD5sum: 2261b06e6437769490e987b3541e3ed7
+Description: Small, free and friendly text editor
 
 Package: ncurses
 Architecture: arm
@@ -2555,6 +2889,22 @@ SHA256: 04dba5430a95eac19550215062b0783708d41901de7ca419a072d0c08829176e
 SHA1: 937c910384d4a9663e1de09ff9376bbbf3262f9f
 MD5sum: 9785e036fc4ee651a0007d9ec3d09ea3
 Description: Libraries for terminal user interfaces based on ncurses
+
+Package: neofetch
+Architecture: all
+Installed-Size: 348
+Maintainer: @termux
+Version: 7.1.0
+Homepage: https://github.com/dylanaraps/neofetch
+Depends: bash
+Priority: high
+Section: main
+Filename: pool/main/n/neofetch/neofetch_7.1.0_all.deb
+Size: 80126
+SHA256: 2e1fac07d4af7fa8846a4bc5a590a3a7365e56e410c5cbcbdbfd5038e60f4eda
+SHA1: 983efde01df56711cf5167829ba5a61d068edf7a
+MD5sum: 27a66090943f100a0b5151f2e7212ee5
+Description: Simple system information script
 
 Package: nettle
 Architecture: arm
@@ -2852,54 +3202,6 @@ SHA1: 44e810877b21362ac134b6ce8ba7554e4d2e4832
 MD5sum: ab07a224ca28260350947339b98ac5f3
 Description: Static libraries for postgresql
 
-Package: pulseaudio-glib
-Architecture: arm
-Installed-Size: 36
-Maintainer: @termux
-Version: 14.2-4
-Homepage: https://www.freedesktop.org/wiki/Software/PulseAudio
-Depends: glib, pulseaudio (= 14.2-4)
-Priority: high
-Section: main
-Filename: pool/main/p/pulseaudio-glib/pulseaudio-glib_14.2-4_arm.deb
-Size: 10008
-SHA256: c65b8535f0afd48d8ed9cecdd12842d8bbf07543687e0d29efd30798a6d18e2c
-SHA1: b63cdd187b93b72058ee64de4861cc1683140a7d
-MD5sum: b97bdcb9330de215ba862f8f7d0e93bd
-Description: PulseAudio GLIB mainloop component
-
-Package: pulseaudio-glib-static
-Architecture: arm
-Installed-Size: 20
-Maintainer: @termux
-Version: 14.2-4
-Homepage: https://www.freedesktop.org/wiki/Software/PulseAudio
-Depends: pulseaudio-static, pulseaudio-glib, pulseaudio (= 14.2-4)
-Priority: high
-Section: main
-Filename: pool/main/p/pulseaudio-glib-static/pulseaudio-glib-static_14.2-4_arm.deb
-Size: 6328
-SHA256: 3c0280e05291022436e84f22425a5a93299322ba335d7c14a197d385ae5f9ee2
-SHA1: bdb00fe020ef7f2c371c9bd265f483dff126bd23
-MD5sum: 92d6fe872885d1ff364910ee779bf7a0
-Description: Static library for PulseAudio GLIB mainloop component
-
-Package: pulseaudio-static
-Architecture: arm
-Installed-Size: 3420
-Maintainer: @termux
-Version: 14.2-4
-Homepage: https://www.freedesktop.org/wiki/Software/PulseAudio
-Depends: pulseaudio (= 14.2-4)
-Priority: high
-Section: main
-Filename: pool/main/p/pulseaudio-static/pulseaudio-static_14.2-4_arm.deb
-Size: 704614
-SHA256: 499f61c84acc5e9ed6515153483f2456829daf530278fe2bd558133b020322c3
-SHA1: d1341d72c647a764bfb8ed13d455d29a9d17da76
-MD5sum: 080c85d9f2e9ba4f61c731a7e620a341
-Description: Static libraries for pulseaudio
-
 Package: python
 Architecture: arm
 Installed-Size: 45112
@@ -3000,6 +3302,22 @@ SHA256: 7301c87e418124c5d7fdd74466b2bf6c8f83933006f0255d5c79f7d9493e3e54
 SHA1: 6874c76f8270658b18ef0df36ddcba63f44fc4e3
 MD5sum: f591c509d98d92f11484d06b9221d83a
 Description: Resolver configuration file
+
+Package: screen
+Architecture: arm
+Installed-Size: 912
+Maintainer: @termux
+Version: 4.8.0
+Homepage: https://www.gnu.org/software/screen/
+Depends: ncurses, libcrypt
+Priority: high
+Section: main
+Filename: pool/main/s/screen/screen_4.8.0_arm.deb
+Size: 436276
+SHA256: 0132081e295e3ab6cca127af9039e91f8f1c060e94dc2d5c43e2bbe85bc05eaf
+SHA1: 897a8f8f1abc584b6d77ff3cc9c3841cfa809b1b
+MD5sum: c9ba2245463e1ec48760df3909995c41
+Description: Terminal multiplexer with VT100/ANSI terminal emulation
 
 Package: sed
 Architecture: arm
@@ -3167,6 +3485,22 @@ SHA1: 541f25bb2860b6204fcbf409b9941f348a2e291b
 MD5sum: 862ecf8345470193e5b9616757984546
 Description: A windowing toolkit for use with tcl
 
+Package: tmux
+Architecture: arm
+Installed-Size: 548
+Maintainer: @termux
+Version: 3.2
+Homepage: https://tmux.github.io/
+Depends: ncurses, libevent, libandroid-support, libandroid-glob, libutil
+Priority: high
+Section: main
+Filename: pool/main/t/tmux/tmux_3.2_arm.deb
+Size: 276752
+SHA256: 063c5c791f8a6a5f357cdda3e2f435f8449324431f5fad1f525993d14eb169c5
+SHA1: 72e471c94e6f5e1a13f32b6f91e788b7a12cf219
+MD5sum: 4c717d217d5a8f0096da4285b92484a7
+Description: Terminal multiplexer
+
 Package: tor
 Architecture: arm
 Installed-Size: 12152
@@ -3197,6 +3531,39 @@ SHA256: d726af8b5c9682c23680d9cb97d628191a6d2eb132f5dbe507fa7730434715f8
 SHA1: d52e5f22395634fa83aa1ce5ae47fdcb765380f9
 MD5sum: 43bbff5eeacc2ba9de662254538094d5
 Description: Font family based on the Bitstream Vera Fonts with a wider range of characters
+
+Package: vim
+Architecture: arm
+Installed-Size: 1764
+Maintainer: @termux
+Version: 8.2.2800
+Homepage: https://www.vim.org
+Depends: libiconv, ncurses, vim-runtime
+Conflicts: vim-python
+Recommends: diffutils
+Priority: high
+Section: main
+Filename: pool/main/v/vim/vim_8.2.2800_arm.deb
+Size: 957752
+SHA256: f7ea6bf5941937c96feaa413721ad0ad20209872fd180a027835a5613b777d65
+SHA1: 00d2961a4a6b61ec69b481d53a63adc0ece1beec
+MD5sum: 4063796045e340a902e25a979d9899fa
+Description: Vi IMproved - enhanced vi editor
+
+Package: vim-runtime
+Architecture: all
+Installed-Size: 23436
+Maintainer: @termux
+Version: 8.2.2800
+Homepage: https://www.vim.org
+Priority: high
+Section: main
+Filename: pool/main/v/vim-runtime/vim-runtime_8.2.2800_all.deb
+Size: 4247770
+SHA256: 500d81dff5a7345fa1c8095711d4b7fde49177cb02997d36789dcff295732a8d
+SHA1: 90d32ac564c63609726350633cd8dd197d28f239
+MD5sum: a5fb6214d70c2ce74e148b1b6de252f1
+Description: Vi IMproved - Runtime files
 
 Package: xcb-proto
 Architecture: all
