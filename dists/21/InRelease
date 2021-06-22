@@ -4,7 +4,7 @@ Hash: SHA256
 Origin: ferryar.github.io/psyco-termux
 Label: ferryar.github.io/psyco-termux
 Codename: 21
-Date: Tue, 22 Jun 2021 18:19:42 UTC
+Date: Tue, 22 Jun 2021 18:26:46 UTC
 Architectures: arm
 Components: main
 MD5Sum:
@@ -21,15 +21,15 @@ SHA256:
  70cc5e81e98e4594e604760093bee7830ba1affc9e0b5ca6ff635f33dd004f54 111 main/binary-arm/Release
 -----BEGIN PGP SIGNATURE-----
 
-iQGzBAEBCAAdFiEEEBkEYHGXuh8Jf+oucveulKvWwMMFAmDSKb8ACgkQcveulKvW
-wMOEZAv+PapN3BALB9nP1uIIiLyt0B89f4hhWQonH2Q7PLbSytq+/HcBpvkTnqrs
-JC4MDyZc5CphHqCCbhqm0kB9+lLurskUY2Z89etZdZs47vqGe9iGlhD7o62d0sxG
-tInXvv1j4fAe9OyczSPWdQfdo73FayClCaSuC5MXkdgb4BGFJaes8CFZ/GKR1ISN
-cAupciKYsvjW1yA5cAZtcp14HtU8vgnU+0YNKJ/1VpLSDCdQ73p+DFj1teHaeqff
-UXPYyevua2Dc1axBrC3l/lLePwsTTCpy6OoEEwJKkwl6KpHQkkTArOW6E4Wk3ILq
-+3j6QBHa8/k9HsLfkXkSS4K80+rr+bHo7kByT/OSM0QGZpfshedGRPWwmi54gAqd
-h6V4lyk277AOzjyCM/ayHWZqKVi9Cox/MrU34yl/kxVK2M3IGpieHYmcjK0l5T9i
-JiVYuH1VBoyWz5CWY8fXlRGjEjAU48Do4asgZMCPamOIPjxbIHxZDZxjPy4oq2hp
-feg5K/xg
-=i/lc
+iQGzBAEBCAAdFiEEEBkEYHGXuh8Jf+oucveulKvWwMMFAmDSK2cACgkQcveulKvW
+wMP6HAv/fWz04uw/69aba4ioqkGAWaHiwvI8WDPrYHFkL9NUcf1z17S9J+TOQrhH
+RetQmF5pjJmXwEftfmc/TrrAiepYwclb16BoPhwsScfTTjhW5jDpfXNppSntS3O2
+q822I9hGmtEjOyra9BEn3vkgv85w8yqHf0BBFuv1SG/BxC0HlpTzUDyYHG0+98++
+kpRWHq9A143AWF0iFZjg81LqX+Efiy1i0Dl/VZC8GoWT4wpOyYe6wPPC72XoQyOP
+UVwVVPYHOYzXWYbdnYcz5PmmuUShB/52bgc2xLS4PDX3e4YGm2J/x8NvTlLBtB3W
+fHQwSA98Cbj13gyTwPlhZqAhX3F1tNvW1ifUWFb/5vSvCKh3M73GvEOPDcdy8bXD
+9obU8ok1W7qCmuq7UqKuZSXE0hN8jA94FjHpgFRZMpY3EzKlfaR/kjzDVB3aIvfX
+L7yorye1nJgHnsgZ4XHC9MyeQSd1mGiek8VK22rMY/jDawtfGX05PsY/m46C/NW7
+Edq6zlyW
+=o/Lo
 -----END PGP SIGNATURE-----
