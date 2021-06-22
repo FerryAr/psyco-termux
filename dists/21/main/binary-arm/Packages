@@ -336,6 +336,24 @@ SHA1: d2bfc59ed0816804217b2413c60a606032d99d68
 MD5sum: 24b662b5cc9eb68311c22f5ea24e240e
 Description: Debian package management system
 
+Package: emacs
+Architecture: arm
+Installed-Size: 98352
+Maintainer: @termux
+Version: 27.2-1
+Homepage: https://www.gnu.org/software/emacs/
+Breaks: emacs-dev
+Depends: ncurses, gnutls, libxml2
+Replaces: emacs-dev
+Priority: high
+Section: main
+Filename: pool/main/e/emacs/emacs_27.2-1_arm.deb
+Size: 35210278
+SHA256: 4634fe2699fd9d13bd10708d86d4d3ecf95ea4c0c3bc22b559f5ba11e675f640
+SHA1: a53e92afd08849a81b9865b90c5e3ca683457d89
+MD5sum: 3a4cb72f6f9ca3308f898a6d7b2de84d
+Description: Extensible, customizable text editor-and more
+
 Package: findutils
 Architecture: arm
 Installed-Size: 684
@@ -755,6 +773,38 @@ SHA1: 8062e33096edbc93012098e782b8626251d96e77
 MD5sum: 1d552a15beb73be1011c0518b82a82f5
 Description: Development utilities for International Components for Unicode
 
+Package: imlib2
+Architecture: arm
+Installed-Size: 996
+Maintainer: @termux
+Version: 1.7.1
+Homepage: https://sourceforge.net/projects/enlightenment/
+Depends: freetype, giflib, libandroid-shmem, libbz2, libid3tag, libjpeg-turbo, libpng, libtiff, libxext, zlib
+Priority: high
+Section: main
+Filename: pool/main/i/imlib2/imlib2_1.7.1_arm.deb
+Size: 472338
+SHA256: 3864ce72c5050f0b36ef669bde4fb54be8f0fb2512a1bc1c58e8516ff9084199
+SHA1: 1130a945f2a14eb45d189b7fb8e591003ef8c498
+MD5sum: b48000247820145f022aeee11a5b9dd5
+Description: Library that does image file loading and saving as well as rendering, manipulation, arbitrary polygon support
+
+Package: imlib2-static
+Architecture: arm
+Installed-Size: 380
+Maintainer: @termux
+Version: 1.7.1
+Homepage: https://sourceforge.net/projects/enlightenment/
+Depends: imlib2 (= 1.7.1)
+Priority: high
+Section: main
+Filename: pool/main/i/imlib2-static/imlib2-static_1.7.1_arm.deb
+Size: 112760
+SHA256: 88258228777cefa2c65a6c4a6adbd4ecf7dddd2928a9f52b7fff3eaa3d1d6c82
+SHA1: 16b1764784159892dee66ea28886a4e679b573eb
+MD5sum: f9fb154ef3331a72ada7e44a1f8078d0
+Description: Static libraries for imlib2
+
 Package: ldns
 Architecture: arm
 Installed-Size: 2604
@@ -841,20 +891,36 @@ Description: Static libraries for libandroid-glob
 
 Package: libandroid-shmem
 Architecture: arm
-Installed-Size: 76
+Installed-Size: 28
 Maintainer: @termux
-Version: 0.3
+Version: 0.3-1
 Homepage: https://github.com/termux/libandroid-shmem
 Breaks: libandroid-shmem-dev
 Replaces: libandroid-shmem-dev
 Priority: high
 Section: main
-Filename: pool/main/liba/libandroid-shmem/libandroid-shmem_0.3_arm.deb
-Size: 11240
-SHA256: 2b67ee40841931071c3b8e5a47e61447649e3f1437dfb014995b7437d5d07aa1
-SHA1: de7ae56ec298027ab292e063e40d2c9602ba87cd
-MD5sum: 719421b50b7b32cc024e7735c217500e
+Filename: pool/main/liba/libandroid-shmem/libandroid-shmem_0.3-1_arm.deb
+Size: 9502
+SHA256: 19afb710eb468a4297c1f18da955b925311d92287b42bda35445baa27a8e7e52
+SHA1: e365b84f7fbce3e729877a36b403db832871c6d7
+MD5sum: 4550772c17c8ffe687cb7d44028a9d53
 Description: System V shared memory emulation on Android using ashmem
+
+Package: libandroid-shmem-static
+Architecture: arm
+Installed-Size: 12
+Maintainer: @termux
+Version: 0.3-1
+Homepage: https://github.com/termux/libandroid-shmem
+Depends: libandroid-shmem (= 0.3-1)
+Priority: high
+Section: main
+Filename: pool/main/liba/libandroid-shmem-static/libandroid-shmem-static_0.3-1_arm.deb
+Size: 5396
+SHA256: f753dac98b9121c88d5adab24a128779744d9449283dd4b464410df16f8b3312
+SHA1: 9a588c5b1a163358775aeaf2db805e2edfae39e6
+MD5sum: 3c47c833a572d2b2d32fa5094461923f
+Description: Static libraries for libandroid-shmem
 
 Package: libandroid-support
 Architecture: arm
@@ -956,6 +1022,40 @@ SHA256: 33684090b5f002ce22043d079d72357c351f935c1521961a162193f285fccc97
 SHA1: 7762f6ef0b5012d7250b26fa55cf3cfaf558dae5
 MD5sum: 206f8a888cd7d113cbfb31e908c7d7a8
 Description: C++ Standard Library
+
+Package: libcairo
+Architecture: arm
+Installed-Size: 1108
+Maintainer: @termux
+Version: 1.16.0-7
+Homepage: https://cairographics.org
+Breaks: libcairo-dev, libcairo-gobject
+Depends: fontconfig, freetype, glib, liblzo, libpixman, libpng, libx11, libxcb, libxext, libxrender, zlib
+Replaces: libcairo-dev, libcairo-gobject
+Priority: high
+Section: main
+Filename: pool/main/libc/libcairo/libcairo_1.16.0-7_arm.deb
+Size: 420936
+SHA256: 2bc4e4a1112d3e75872f0b330c06386aacf3f710dd773809ac40afdb0afc0122
+SHA1: de54847eeaad98d164fc2eb09959e7c8c3e6ffe1
+MD5sum: c47e05af4df2d263a2f2b28247a6640d
+Description: Cairo 2D vector graphics library
+
+Package: libcairo-static
+Architecture: arm
+Installed-Size: 1728
+Maintainer: @termux
+Version: 1.16.0-7
+Homepage: https://cairographics.org
+Depends: libcairo (= 1.16.0-7)
+Priority: high
+Section: main
+Filename: pool/main/libc/libcairo-static/libcairo-static_1.16.0-7_arm.deb
+Size: 525120
+SHA256: 975e14551b2be0b62928ca9ef4e4c9bf2a562769e5448732697537421bfbcb09
+SHA1: d90f89a497d5c867bc51cfd84eea7d0a4174a80b
+MD5sum: 8a81bf72db68950b26ba3d47a4bad405
+Description: Static libraries for libcairo
 
 Package: libcrypt
 Architecture: arm
@@ -1194,6 +1294,39 @@ SHA256: 729400ced9a2513842346657b90194c4c07a1ab8fd61faa267e406833ae1805f
 SHA1: 4b72900ee3ed242bc2b5539ba8bf5d197e63b228
 MD5sum: 8f057b86cb03352e1740c8c5a9779ed3
 Description: Static libraries for libflac
+
+Package: libgc
+Architecture: arm
+Installed-Size: 792
+Maintainer: @termux
+Version: 8.0.4-2
+Homepage: https://www.hboehm.info/gc/
+Breaks: libgc-dev
+Replaces: libgc-dev
+Priority: high
+Section: main
+Filename: pool/main/libg/libgc/libgc_8.0.4-2_arm.deb
+Size: 203066
+SHA256: b0b17e0c7f42f29699a36dc2a120005e1c25220f21dcceb756447fd49209fd1a
+SHA1: f2c41458a02928137a3dbe5e39f26541e8c61f09
+MD5sum: 5797f02b75abc6c3fa5091b7dd0c5833
+Description: Library providing the Boehm-Demers-Weiser conservative garbage collector
+
+Package: libgc-static
+Architecture: arm
+Installed-Size: 280
+Maintainer: @termux
+Version: 8.0.4-2
+Homepage: https://www.hboehm.info/gc/
+Depends: libgc (= 8.0.4-2)
+Priority: high
+Section: main
+Filename: pool/main/libg/libgc-static/libgc-static_8.0.4-2_arm.deb
+Size: 83430
+SHA256: 2b9e46532b7b3567fc59744a52d1c983d4b793ed4e1a05f77a31c21599aa9ba0
+SHA1: c197ae904e9851219e8f48fae4734a94fa08a71e
+MD5sum: b27cc33f9ba4dd962d13ca221d7893be
+Description: Static libraries for libgc
 
 Package: libgcrypt
 Architecture: arm
@@ -1447,6 +1580,40 @@ SHA256: 078d8c674147715b0049f9bc62dc3e2f41cc11d8684e5c49dd552fb0a73de3c8
 SHA1: 68f51c47c7fc05fe15d93f464f7b806d9e19059e
 MD5sum: 0fe8ef5fdb4219217ab13fdea16c2ea3
 Description: Static libraries for libicu
+
+Package: libid3tag
+Architecture: arm
+Installed-Size: 84
+Maintainer: @termux
+Version: 0.15.1b-3
+Homepage: http://www.underbit.com/products/mad/
+Breaks: libid3tag-dev
+Depends: zlib
+Replaces: libid3tag-dev
+Priority: high
+Section: main
+Filename: pool/main/libi/libid3tag/libid3tag_0.15.1b-3_arm.deb
+Size: 26782
+SHA256: 90216939997dfaa7d11818afe594913c66f9c2d21b0bdcbbc3fd7e4277cc671c
+SHA1: a68eb48d3e835b38dbba37a8e73d96bef75b9cdf
+MD5sum: 59fc6b6a25f1319fcb2b655a7bc5d70e
+Description: MAD ID3 tag manipulation library
+
+Package: libid3tag-static
+Architecture: arm
+Installed-Size: 104
+Maintainer: @termux
+Version: 0.15.1b-3
+Homepage: http://www.underbit.com/products/mad/
+Depends: libid3tag (= 0.15.1b-3)
+Priority: high
+Section: main
+Filename: pool/main/libi/libid3tag-static/libid3tag-static_0.15.1b-3_arm.deb
+Size: 28562
+SHA256: 6db8860843c3023b72196f77f9c6a4268a63b944f00066034f38677e262c93bb
+SHA1: 8c4075880d3af91a4eaa14b951df7da420abda40
+MD5sum: 90a48a53af5dd87186460176b4bc818f
+Description: Static libraries for libid3tag
 
 Package: libidn2
 Architecture: arm
@@ -1896,6 +2063,39 @@ SHA256: 2537362343ac872b5f63034495f2410e974488059ffcc68d8d483ec89a083b92
 SHA1: df975ce219218816e7ca7d23401f2abf41334682
 MD5sum: c57e8257cedea75618a8282dad58818e
 Description: Static libraries for libogg
+
+Package: libpcap
+Architecture: arm
+Installed-Size: 716
+Maintainer: @termux
+Version: 1.10.1
+Homepage: https://www.tcpdump.org
+Breaks: libpcap-dev
+Replaces: libpcap-dev
+Priority: high
+Section: main
+Filename: pool/main/libp/libpcap/libpcap_1.10.1_arm.deb
+Size: 214726
+SHA256: 3ae45f3f16a0255300c57fbfe31433c53f3534b45ca591f4875b9645716499bd
+SHA1: 72c10e63ad0a546aebec9632124b219f6c146c33
+MD5sum: 8f2f616ac1a2531d11b4b2284840fbe0
+Description: Library for network traffic capture
+
+Package: libpcap-static
+Architecture: arm
+Installed-Size: 272
+Maintainer: @termux
+Version: 1.10.1
+Homepage: https://www.tcpdump.org
+Depends: libpcap (= 1.10.1)
+Priority: high
+Section: main
+Filename: pool/main/libp/libpcap-static/libpcap-static_1.10.1_arm.deb
+Size: 96232
+SHA256: 649b0395bccc3c6aef309a9f73b3e5aa152f7f12ffc55be8c1a77c4369637d3b
+SHA1: 3457bf88cb356d1b465eee037612d27818c98f1f
+MD5sum: 47553c84aabbc54accb68c4962968d49
+Description: Static libraries for libpcap
 
 Package: libpcreposix
 Architecture: arm
@@ -2922,6 +3122,41 @@ SHA1: 26161daa8ad7895597516de059240e936af36757
 MD5sum: 4074e1d12e477bfb6e3bb87e9246686e
 Description: Low level cryptographic tools
 
+Package: nmap
+Architecture: arm
+Installed-Size: 24464
+Maintainer: @termux
+Version: 7.91-1
+Homepage: https://nmap.org/
+Depends: libc++, libpcap, pcre, openssl, resolv-conf, liblua53, libssh2, zlib
+Recommends: nmap-ncat
+Priority: high
+Section: main
+Filename: pool/main/n/nmap/nmap_7.91-1_arm.deb
+Size: 4415576
+SHA256: bbd9eb19068423daf7eac80ec31dc6b558dd854a8481d5d79a50eb5c129e22ea
+SHA1: 61d6fe6470e84f359c9f661ac3c13f381df7ad02
+MD5sum: baf20a89b563282c3cbec5010d4d0816
+Description: Utility for network discovery and security auditing
+
+Package: nmap-ncat
+Architecture: arm
+Installed-Size: 148
+Maintainer: @termux
+Version: 7.91-1
+Homepage: https://nmap.org/
+Depends: libpcap, openssl, liblua53, nmap (= 7.91-1)
+Breaks: netcat
+Replaces: netcat
+Priority: high
+Section: main
+Filename: pool/main/n/nmap-ncat/nmap-ncat_7.91-1_arm.deb
+Size: 77868
+SHA256: 7de44050d5805afcb013ba6723836eadaf8c3599b173c7ecfef61498e60082eb
+SHA1: 49854871cf9b7b1c72e3894990eb98e390dd32a9
+MD5sum: 696d5762ceb791a1e6a6573e83e64c82
+Description: Feature-packed networking utility which reads and writes data across networks from the command line
+
 Package: oniguruma
 Architecture: arm
 Installed-Size: 516
@@ -3419,6 +3654,38 @@ SHA1: e404f480d7f131cc779a8dab692eef77f69ce991
 MD5sum: c1d25dedfb9d38179d3c12f25b4fcff4
 Description: Powerful but easy to learn dynamic programming language
 
+Package: termux-elf-cleaner
+Architecture: arm
+Installed-Size: 24
+Maintainer: @termux
+Version: 1.7
+Homepage: https://github.com/termux/termux-elf-cleaner
+Depends: libc++
+Priority: high
+Section: main
+Filename: pool/main/t/termux-elf-cleaner/termux-elf-cleaner_1.7_arm.deb
+Size: 7646
+SHA256: 4421384dddf35ef8199805467468e7cd39b11636fc326150a97a555bede5d052
+SHA1: 1d3fe0bac7872f1de0217b3a60f98b73a5f744b8
+MD5sum: c41eb9dc04342e547dc862625e847355
+Description: Cleaner of ELF files for Android
+
+Package: termux-exec
+Architecture: arm
+Installed-Size: 12
+Maintainer: @termux
+Version: 1:0.9
+Homepage: https://github.com/termux/termux-exec
+Essential: yes
+Priority: high
+Section: main
+Filename: pool/main/t/termux-exec/termux-exec_0.9_arm.deb
+Size: 3312
+SHA256: de9c435207fdf21e2f9c16fd031460f311953f5262f6be935ec9de86e878f4a4
+SHA1: b9b1748e9a6bb50f859a16d6d348973063a7b8f2
+MD5sum: 308c444250c9544fe659971135be472e
+Description: An execve() wrapper to make /bin and /usr/bin shebangs work
+
 Package: termux-licenses
 Architecture: all
 Installed-Size: 336
@@ -3532,6 +3799,41 @@ SHA1: d52e5f22395634fa83aa1ce5ae47fdcb765380f9
 MD5sum: 43bbff5eeacc2ba9de662254538094d5
 Description: Font family based on the Bitstream Vera Fonts with a wider range of characters
 
+Package: util-linux
+Architecture: arm
+Installed-Size: 2920
+Maintainer: @termux
+Version: 2.36.2
+Homepage: https://en.wikipedia.org/wiki/Util-linux
+Breaks: util-linux-dev
+Depends: ncurses, libcrypt, zlib
+Essential: yes
+Replaces: util-linux-dev
+Priority: high
+Section: main
+Filename: pool/main/u/util-linux/util-linux_2.36.2_arm.deb
+Size: 590938
+SHA256: 7603c0227587244c10aeed22f427362cd763b73716e19258e6fa3b42b00f9217
+SHA1: 2f3d09e4642596d8e1b68158a11839c0e017ba89
+MD5sum: 0a289cdc49102edb172c3bcf979585e0
+Description: Miscellaneous system utilities
+
+Package: util-linux-static
+Architecture: arm
+Installed-Size: 788
+Maintainer: @termux
+Version: 2.36.2
+Homepage: https://en.wikipedia.org/wiki/Util-linux
+Depends: util-linux (= 2.36.2)
+Priority: high
+Section: main
+Filename: pool/main/u/util-linux-static/util-linux-static_2.36.2_arm.deb
+Size: 165820
+SHA256: 679347cf132c654940f6e3aefcbe1d16a4c7557cdbb2d855a03ae692333ebe8b
+SHA1: c0e9213bed3100f8417ebeb59183597bf2c4f09f
+MD5sum: ad5a1eb7bc2a5aa5a175ed3bc5046d76
+Description: Static libraries for util-linux
+
 Package: vim
 Architecture: arm
 Installed-Size: 1764
@@ -3549,6 +3851,24 @@ SHA256: f7ea6bf5941937c96feaa413721ad0ad20209872fd180a027835a5613b777d65
 SHA1: 00d2961a4a6b61ec69b481d53a63adc0ece1beec
 MD5sum: 4063796045e340a902e25a979d9899fa
 Description: Vi IMproved - enhanced vi editor
+
+Package: vim-python
+Architecture: arm
+Installed-Size: 1796
+Maintainer: @termux
+Version: 8.2.2800
+Homepage: https://www.vim.org
+Depends: libiconv, ncurses, vim-runtime, python
+Conflicts: vim
+Recommends: diffutils
+Priority: high
+Section: main
+Filename: pool/main/v/vim-python/vim-python_8.2.2800_arm.deb
+Size: 979500
+SHA256: 78c0ecff9a31c51b083eddd73a8c89f28887e46cc04f20891d46ef5b3d6a7a66
+SHA1: ecc0244a1918081bdf7c8d308fac7e7e7ab52be0
+MD5sum: 365b6fc4e8ed55aeca65bbfe4fa8efeb
+Description: Vi IMproved - enhanced vi editor - with python support
 
 Package: vim-runtime
 Architecture: all
