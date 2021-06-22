@@ -120,6 +120,40 @@ SHA1: 6692a9aa9ebea28f05735f80062bfb3043ef6be8
 MD5sum: 8bfd63ca66135c57a5a54ab661470335
 Description: A cat(1) clone with wings
 
+Package: bsdtar
+Architecture: arm
+Installed-Size: 988
+Maintainer: @termux
+Version: 3.5.1
+Homepage: https://www.libarchive.org/
+Depends: libarchive (= 3.5.1)
+Priority: high
+Section: main
+Filename: pool/main/b/bsdtar/bsdtar_3.5.1_arm.deb
+Size: 294834
+SHA256: 859f4a85d5276758bed4fb2a59a8ef250e3016e411fd997a6e46a1a4207116be
+SHA1: 6dea2544a1deddfc9cc88fc5b63cf1dd5f6b3802
+MD5sum: 59071d1b63a3f7a96619bd291f943ad6
+Description: The tar(1) and cpio(1) programs from FreeBSD, using libarchive
+
+Package: build-essential
+Architecture: all
+Installed-Size: 0
+Maintainer: Leonid Pliushch <leonid.pliushch@gmail.com>
+Version: 4.1
+Homepage: https://github.com/termux/termux-packages
+Depends: clang, make, pkg-config
+Recommends: autoconf, automake, bc, bison, cmake, flex, gperf, libtool, m4
+Suggests: git, golang, nodejs, patchelf, proot, python, ruby, rust, subversion
+Priority: high
+Section: main
+Filename: pool/main/b/build-essential/build-essential_4.1_all.deb
+Size: 812
+SHA256: 9daddb4a502eb5c88538ec3785ecd10ea897c154d4ecc4948de0495858fa2ef5
+SHA1: f1ca0f7b1202c23250625ba6e367bb300040a3e3
+MD5sum: d08535b160a9e5d7ae1d27af5154d06b
+Description: A metapackage that installs essential development tools
+
 Package: busybox
 Architecture: arm
 Installed-Size: 656
@@ -336,6 +370,23 @@ SHA1: d2bfc59ed0816804217b2413c60a606032d99d68
 MD5sum: 24b662b5cc9eb68311c22f5ea24e240e
 Description: Debian package management system
 
+Package: dropbear
+Architecture: arm
+Installed-Size: 256
+Maintainer: @termux
+Version: 2020.81-1
+Homepage: https://matt.ucc.asn.au/dropbear/dropbear.html
+Depends: termux-auth, zlib
+Conflicts: openssh
+Priority: high
+Section: main
+Filename: pool/main/d/dropbear/dropbear_2020.81-1_arm.deb
+Size: 116866
+SHA256: a2ae299ee43005a081f1d8868130bf2824801fbaa3422d1b76bd0c6e67e816ef
+SHA1: 086f36206fb6814f4291b69ea6cf2f3dc126445b
+MD5sum: c7b1ef9d92f47292adf578e84b837060
+Description: Small SSH server and client
+
 Package: emacs
 Architecture: arm
 Installed-Size: 98352
@@ -353,6 +404,25 @@ SHA256: 4634fe2699fd9d13bd10708d86d4d3ecf95ea4c0c3bc22b559f5ba11e675f640
 SHA1: a53e92afd08849a81b9865b90c5e3ca683457d89
 MD5sum: 3a4cb72f6f9ca3308f898a6d7b2de84d
 Description: Extensible, customizable text editor-and more
+
+Package: ffmpeg
+Architecture: arm
+Installed-Size: 17612
+Maintainer: @termux
+Version: 4.4
+Homepage: https://ffmpeg.org
+Breaks: ffmpeg-dev
+Depends: libass, libbz2, libdav1d, libiconv, libsoxr, libx264, libx265, xvidcore, libvorbis, libmp3lame, libopus, libvpx, libgnutls, libandroid-glob, freetype, zlib, liblzma, libvidstab, libwebp
+Conflicts: libav
+Replaces: ffmpeg-dev
+Priority: high
+Section: main
+Filename: pool/main/f/ffmpeg/ffmpeg_4.4_arm.deb
+Size: 8023578
+SHA256: 5140fc5722baa18891ddce6c23a380261016110ffeab11b60107ccfe2d139aa2
+SHA1: 8413f5585d4cf1584d2f586ca4fe29718eccf2c8
+MD5sum: 6114669e5f3d186daa26221663ed7098
+Description: Tools and libraries to manipulate a wide range of multimedia formats and protocols
 
 Package: findutils
 Architecture: arm
@@ -741,6 +811,56 @@ SHA1: 89b0480280bf01fb1cf7d83eb625159e2fe27b08
 MD5sum: dea3117642e9f095fa8728c2833142c0
 Description: Standard GNU file compression utilities
 
+Package: harfbuzz
+Architecture: arm
+Installed-Size: 1336
+Maintainer: @termux
+Version: 2.8.1
+Homepage: https://www.freedesktop.org/wiki/Software/HarfBuzz/
+Breaks: harfbuzz-dev
+Depends: freetype, glib, libbz2, libc++, libpng, libgraphite
+Replaces: harfbuzz-dev
+Priority: high
+Section: main
+Filename: pool/main/h/harfbuzz/harfbuzz_2.8.1_arm.deb
+Size: 354442
+SHA256: 83394997fdeda150ed20c0662ead95d89e91bca2868b8d43f16ed5406b79dad4
+SHA1: ca2391227cacbaee5dcb0584c8dd35ee7221dce5
+MD5sum: 429d107d313b78b41a493578c6379a87
+Description: OpenType text shaping engine
+
+Package: harfbuzz-icu
+Architecture: arm
+Installed-Size: 12
+Maintainer: @termux
+Version: 2.8.1
+Homepage: https://www.freedesktop.org/wiki/Software/HarfBuzz/
+Depends: libicu, harfbuzz (= 2.8.1)
+Priority: high
+Section: main
+Filename: pool/main/h/harfbuzz-icu/harfbuzz-icu_2.8.1_arm.deb
+Size: 3174
+SHA256: 34d36f322d9e12807f5ec5c9b485f48bda9e025c350046de1c57af2fd7ad444f
+SHA1: 5d8ffb1b8c118b2c60e1ef2f26c870fb7f557bb0
+MD5sum: 34dcd1748cf83eb440decd4a29547dc6
+Description: OpenType text shaping engine ICU backend
+
+Package: harfbuzz-utils
+Architecture: arm
+Installed-Size: 144
+Maintainer: @termux
+Version: 2.8.1
+Homepage: https://www.freedesktop.org/wiki/Software/HarfBuzz/
+Depends: libcairo, fontconfig, liblzma, libpixman, libxml2, harfbuzz (= 2.8.1)
+Priority: high
+Section: main
+Filename: pool/main/h/harfbuzz-utils/harfbuzz-utils_2.8.1_arm.deb
+Size: 31752
+SHA256: c93e584797936182cf52b35eefab7eb20caa7a24dea51be1097fb4f505a8f6ef
+SHA1: 358cbd38d14e27ac9745d6187e98391df2e855f3
+MD5sum: ec0290ca6d8ab0c61ae322b73247a23e
+Description: Tools using the harfbuzz library
+
 Package: iconv
 Architecture: arm
 Installed-Size: 28
@@ -804,6 +924,22 @@ SHA256: 88258228777cefa2c65a6c4a6adbd4ecf7dddd2928a9f52b7fff3eaa3d1d6c82
 SHA1: 16b1764784159892dee66ea28886a4e679b573eb
 MD5sum: f9fb154ef3331a72ada7e44a1f8078d0
 Description: Static libraries for imlib2
+
+Package: lame
+Architecture: arm
+Installed-Size: 512
+Maintainer: @termux
+Version: 3.100-3
+Homepage: https://lame.sourceforge.io/
+Depends: ncurses, libmp3lame (= 3.100-3)
+Priority: high
+Section: main
+Filename: pool/main/l/lame/lame_3.100-3_arm.deb
+Size: 186148
+SHA256: 07ed1e5b3bc82df9b8e586221a2e8998243e7269e83679f1df664e398bc3d78c
+SHA1: d04009fb25713768a6b8b1a94624949e2cce66f1
+MD5sum: 99d57e3d3834d18cc0e9d742e0804b19
+Description: High quality MPEG Audio Layer III (MP3) encoder - frontend
 
 Package: ldns
 Architecture: arm
@@ -955,6 +1091,74 @@ SHA1: 3ef777cd4cdce6cfa2c5571b6321ef699e837066
 MD5sum: 2aeca2ae23711100a14fadabe3911097
 Description: Static libraries for libandroid-support
 
+Package: libarchive
+Architecture: arm
+Installed-Size: 756
+Maintainer: @termux
+Version: 3.5.1
+Homepage: https://www.libarchive.org/
+Breaks: libarchive-dev
+Depends: libbz2, libiconv, liblzma, libxml2, openssl, zlib
+Replaces: libarchive-dev
+Priority: high
+Section: main
+Filename: pool/main/liba/libarchive/libarchive_3.5.1_arm.deb
+Size: 369090
+SHA256: b51316ba16e9fed0739b6bbd2789613a83aefab67a97acb6650d6d06a1ba7c70
+SHA1: 60cd3e5fd814bd43d3bb9d0180c4afc68d05a765
+MD5sum: 23b5d5dfb7f8d478c17bacfab04f8833
+Description: Multi-format archive and compression library
+
+Package: libarchive-static
+Architecture: arm
+Installed-Size: 908
+Maintainer: @termux
+Version: 3.5.1
+Homepage: https://www.libarchive.org/
+Depends: libarchive (= 3.5.1)
+Priority: high
+Section: main
+Filename: pool/main/liba/libarchive-static/libarchive-static_3.5.1_arm.deb
+Size: 300024
+SHA256: ec65716d402300b1445519d3877abceeabb39228969f4cab5a46cf194494fb7d
+SHA1: fe6d34774bddb684b884595861b61aeb16436fb0
+MD5sum: bf538c6b0676d00a0c6ca4a49fced56e
+Description: Static libraries for libarchive
+
+Package: libass
+Architecture: arm
+Installed-Size: 156
+Maintainer: @termux
+Version: 0.15.1
+Homepage: https://github.com/libass/libass
+Breaks: libass-dev
+Depends: fontconfig, fribidi, glib, harfbuzz
+Replaces: libass-dev
+Priority: high
+Section: main
+Filename: pool/main/liba/libass/libass_0.15.1_arm.deb
+Size: 72600
+SHA256: fa239d98405bc17c7878e880951ac2a26dada4c38e56cc13fa333fe55e3b7fa2
+SHA1: 2911e45ac38d83806408a8704c3a5b77c13c9f28
+MD5sum: 871550e50007e7894e295cc9f5929f69
+Description: A portable library for SSA/ASS subtitles rendering
+
+Package: libass-static
+Architecture: arm
+Installed-Size: 176
+Maintainer: @termux
+Version: 0.15.1
+Homepage: https://github.com/libass/libass
+Depends: libass (= 0.15.1)
+Priority: high
+Section: main
+Filename: pool/main/liba/libass-static/libass-static_0.15.1_arm.deb
+Size: 72900
+SHA256: e9b014a5cd468769d3c6c912772054d547224e36adc6ae07f7efa77c6478fa77
+SHA1: e925ef1e77030bfa535c7f9d3b33665173a84640
+MD5sum: e7d2d00ee57b2d96a3f667786d2b8cd5
+Description: Static libraries for libass
+
 Package: libassuan
 Architecture: arm
 Installed-Size: 256
@@ -1022,6 +1226,40 @@ SHA256: 33684090b5f002ce22043d079d72357c351f935c1521961a162193f285fccc97
 SHA1: 7762f6ef0b5012d7250b26fa55cf3cfaf558dae5
 MD5sum: 206f8a888cd7d113cbfb31e908c7d7a8
 Description: C++ Standard Library
+
+Package: libcaca
+Architecture: arm
+Installed-Size: 1288
+Maintainer: @termux
+Version: 0.99.beta19-8
+Homepage: http://caca.zoy.org/wiki/libcaca
+Breaks: libcaca-dev
+Depends: imlib2, libc++, ncurses, zlib
+Replaces: libcaca-dev
+Priority: high
+Section: main
+Filename: pool/main/libc/libcaca/libcaca_0.99.beta19-8_arm.deb
+Size: 243982
+SHA256: e84a1adeeba99b4f6b7ca82b382db23d864883d65020daae267cba4932bb34b2
+SHA1: 19018db8401a4f6deb476e1ac9e36eea80a85227
+MD5sum: 45abf20b42e322754838bac90e5e872f
+Description: Graphics library that outputs text instead of pixels
+
+Package: libcaca-static
+Architecture: arm
+Installed-Size: 1236
+Maintainer: @termux
+Version: 0.99.beta19-8
+Homepage: http://caca.zoy.org/wiki/libcaca
+Depends: libcaca (= 0.99.beta19-8)
+Priority: high
+Section: main
+Filename: pool/main/libc/libcaca-static/libcaca-static_0.99.beta19-8_arm.deb
+Size: 287756
+SHA256: b4f5e4ab67c21cc586f417cbb5232f7cba070310bc1d3da9b3199325b1746693
+SHA1: 87efc50bf7fe9bcc7e3fcbe7c777ec6ccb93330e
+MD5sum: 160c35cedda00ca21a1b25c38b7c23a3
+Description: Static libraries for libcaca
 
 Package: libcairo
 Architecture: arm
@@ -1110,6 +1348,21 @@ SHA256: 25fa957ca9b4e8bb35c0bd614e7234a8dfc5f5c5c9fb4ba80129c5c8518849de
 SHA1: 1d69d29f75c8be53f1a22a83ae38e31012c4ea69
 MD5sum: 125519ba6307583943cb71dd32497f8c
 Description: Static libraries for libcurl
+
+Package: libdav1d
+Architecture: arm
+Installed-Size: 420
+Maintainer: @termux
+Version: 0.8.2
+Homepage: https://code.videolan.org/videolan/dav1d/
+Priority: high
+Section: main
+Filename: pool/main/libd/libdav1d/libdav1d_0.8.2_arm.deb
+Size: 194294
+SHA256: 8b15d690a7900790998122585991d4daec0ceb6479bd09a587f333e5700a09f0
+SHA1: 4929a68541b3c0769748396e944d037480565f39
+MD5sum: bcd196050ff1b21f8328495ffb9adcf1
+Description: AV1 cross-platform decoder focused on speed and correctness
 
 Package: libdb
 Architecture: arm
@@ -1514,6 +1767,24 @@ SHA1: c9230e2c73d61f8391f6c71fed69b90eecb10403
 MD5sum: 5ef87f39581db6ad0e5249b36f167e92
 Description: Static libraries for libgpg-error
 
+Package: libgraphite
+Architecture: arm
+Installed-Size: 188
+Maintainer: @termux
+Version: 1.3.14
+Homepage: https://github.com/silnrsi/graphite
+Breaks: libgraphite-dev
+Depends: libc++
+Replaces: libgraphite-dev
+Priority: high
+Section: main
+Filename: pool/main/libg/libgraphite/libgraphite_1.3.14_arm.deb
+Size: 71030
+SHA256: 51320e81f960a132b410090c27cd4c373b477cf9ede6979ddbfdcc85bab769db
+SHA1: 5c7e75b9d2000a4c8c3e2f1f899387bf7bb32ba1
+MD5sum: 05cdfc36ca171be8136e43014cc60051
+Description: Font system for multiple languages
+
 Package: libiconv
 Architecture: arm
 Installed-Size: 1056
@@ -1747,6 +2018,23 @@ SHA1: 2a85ec14815e8e04e9b6ff8448b1ee5ee0e64f7d
 MD5sum: 36dc84a832a4f44ce09b8f31e2939bbd
 Description: Library for dlopening libraries
 
+Package: liblua52
+Architecture: arm
+Installed-Size: 184
+Maintainer: @termux
+Version: 5.2.4-5
+Homepage: https://www.lua.org
+Breaks: liblua52-dev
+Replaces: liblua52-dev
+Priority: high
+Section: main
+Filename: pool/main/libl/liblua52/liblua52_5.2.4-5_arm.deb
+Size: 70084
+SHA256: bb91ee37aa077c4e7486adb9144a2f2990a640ddedb0d45bbf1e968cc1b60718
+SHA1: 8b221853489433e6bc274dd9fe4ae63d069aad83
+MD5sum: 712c7e610b3c15efa8c1aad3bf63813e
+Description: Shared library for the Lua interpreter (v5.2.x)
+
 Package: liblua53
 Architecture: arm
 Installed-Size: 212
@@ -1863,6 +2151,39 @@ SHA256: 986858619096c34cad802784cd5cf0b1ae635a2aa41d4e93a968e30ff5c7a188
 SHA1: 2bf52c2f7cc06eb2135f7e43f75081fe2f824c96
 MD5sum: 0476fdd927528bb128e7f7e76e223bf4
 Description: Static libraries for liblzo
+
+Package: libmp3lame
+Architecture: arm
+Installed-Size: 252
+Maintainer: @termux
+Version: 3.100-3
+Homepage: https://lame.sourceforge.io/
+Breaks: libmp3lame-dev
+Replaces: libmp3lame-dev
+Priority: high
+Section: main
+Filename: pool/main/libm/libmp3lame/libmp3lame_3.100-3_arm.deb
+Size: 110318
+SHA256: fb8ef271246a7a3b506dd334a585ad32070f121605b90bae5659374b8531020d
+SHA1: b04ebebb684e171132833eaf3be3d9968eced3f8
+MD5sum: 784f574c50045f79dc1ba44aca89a93d
+Description: High quality MPEG Audio Layer III (MP3) encoder
+
+Package: libmp3lame-static
+Architecture: arm
+Installed-Size: 296
+Maintainer: @termux
+Version: 3.100-3
+Homepage: https://lame.sourceforge.io/
+Depends: libmp3lame (= 3.100-3)
+Priority: high
+Section: main
+Filename: pool/main/libm/libmp3lame-static/libmp3lame-static_3.100-3_arm.deb
+Size: 116852
+SHA256: f6d37f7217f0a82325a3d12840e32034d88b07b0cfed1fdbda32e1e8adfa930a
+SHA1: e9b3345c58c3f9342c9a4bf063cbe9ce6ff52768
+MD5sum: 57eb2bf21dd656083720734f68b007fd
+Description: Static libraries for libmp3lame
 
 Package: libmpfr
 Architecture: arm
@@ -2063,6 +2384,39 @@ SHA256: 2537362343ac872b5f63034495f2410e974488059ffcc68d8d483ec89a083b92
 SHA1: df975ce219218816e7ca7d23401f2abf41334682
 MD5sum: c57e8257cedea75618a8282dad58818e
 Description: Static libraries for libogg
+
+Package: libopus
+Architecture: arm
+Installed-Size: 2152
+Maintainer: @termux
+Version: 1.3.1-4
+Homepage: https://www.opus-codec.org/
+Breaks: libopus-dev
+Replaces: libopus-dev
+Priority: high
+Section: main
+Filename: pool/main/libo/libopus/libopus_1.3.1-4_arm.deb
+Size: 391990
+SHA256: fc33ebe31c62c4a51c36eb94e0ef7430f9fe03284603a326672e5d10b78a369f
+SHA1: cf6d190db876ec228f2f5e9541d6ae8f789730e0
+MD5sum: 6ecfee491933d1d445112f1236bf898d
+Description: Reference implementation of the Opus codec
+
+Package: libopus-static
+Architecture: arm
+Installed-Size: 460
+Maintainer: @termux
+Version: 1.3.1-4
+Homepage: https://www.opus-codec.org/
+Depends: libopus (= 1.3.1-4)
+Priority: high
+Section: main
+Filename: pool/main/libo/libopus-static/libopus-static_1.3.1-4_arm.deb
+Size: 173998
+SHA256: c8e8c6338085a7db1404e3a0547264fbd9362e3084e8663a47384e6f21807d67
+SHA1: 033d8e9608aa409908a8b48bd638eba9e4a80090
+MD5sum: c433ca49243fdb014f6c8d8f0f23a6de
+Description: Static libraries for libopus
 
 Package: libpcap
 Architecture: arm
@@ -2517,6 +2871,21 @@ SHA1: 7bc03668eac24b3324a221dbc9fad5a6ea8ebe4c
 MD5sum: f7419e3ea09166ee0d7548ebb0e00518
 Description: Static libraries for libuv
 
+Package: libvidstab
+Architecture: arm
+Installed-Size: 160
+Maintainer: @termux
+Version: 1.1.0
+Homepage: https://github.com/georgmartius/vid.stab
+Priority: high
+Section: main
+Filename: pool/main/libv/libvidstab/libvidstab_1.1.0_arm.deb
+Size: 45452
+SHA256: 17910eaabc1c6facb2781b67b9d378570abd919670cd58846c81349ca5cd3433
+SHA1: a917be6e6e55bad100edaa8abfdf906eb8a20b33
+MD5sum: 42894648dd0631cf05f4b79414751473
+Description: video stabilization library
+
 Package: libvorbis
 Architecture: arm
 Installed-Size: 1568
@@ -2550,6 +2919,40 @@ SHA256: 39ea8578812ca1f661bf27171156ba2f979ad6cbdd431e4bb1a638b5fa6366d1
 SHA1: e1db0c6dd0ad2783e5d49813028bdfc17d8222c4
 MD5sum: 1cd3715c725fabf07b7659309303a8a1
 Description: Static libraries for libvorbis
+
+Package: libvpx
+Architecture: arm
+Installed-Size: 1292
+Maintainer: @termux
+Version: 1.10.0
+Homepage: https://www.webmproject.org
+Breaks: libvpx-dev
+Depends: libc++
+Replaces: libvpx-dev
+Priority: high
+Section: main
+Filename: pool/main/libv/libvpx/libvpx_1.10.0_arm.deb
+Size: 611076
+SHA256: 6d78a9daab0507fa19864adfdbd29b4f9aaacb873bab6eb9401d422e4c2b8fc7
+SHA1: 385fe9cf914329b67a66ebc212b9395a5bc9a77e
+MD5sum: f302cc99fa37a9390a5c0af9932b6115
+Description: VP8 & VP9 Codec SDK
+
+Package: libvpx-static
+Architecture: arm
+Installed-Size: 1680
+Maintainer: @termux
+Version: 1.10.0
+Homepage: https://www.webmproject.org
+Depends: libvpx (= 1.10.0)
+Priority: high
+Section: main
+Filename: pool/main/libv/libvpx-static/libvpx-static_1.10.0_arm.deb
+Size: 651354
+SHA256: 6089e18bd0fa6f0a93ea0b7f447a6ca5fb5f0b6605f5a6337bace5d0fc9d6dee
+SHA1: 64efc65651b699d4b5231faf1f97ac79b65234c0
+MD5sum: c240733e3bd0521a75b1df13de29213f
+Description: Static libraries for libvpx
 
 Package: libvterm
 Architecture: arm
@@ -2665,6 +3068,39 @@ SHA256: 75fa2290d788f5e6b9a2176cc588c7f557603022a029269b8417650305cfa9c6
 SHA1: 9dccb9e1185f3ba54df6fdb4479200ac4a480eeb
 MD5sum: b93047046edcdc5dfe40bc29357be08d
 Description: Static libraries for libx11
+
+Package: libx264
+Architecture: arm
+Installed-Size: 948
+Maintainer: @termux
+Version: 1:0.161.3049
+Homepage: https://www.videolan.org/developers/x264.html
+Breaks: libx264-dev
+Replaces: libx264-dev
+Priority: high
+Section: main
+Filename: pool/main/libx/libx264/libx264_0.161.3049_arm.deb
+Size: 368122
+SHA256: 69bde67f9fef6e05b21c9e1ad2f59ac8995da40ac741e104995433a805d474b5
+SHA1: 504050ce6290aa5bb3fbbfd6bd847b7668646014
+MD5sum: 408e4bc23d246422afecbacd4f678977
+Description: Library for encoding video streams into the H.264/MPEG-4 AVC format
+
+Package: libx264-static
+Architecture: arm
+Installed-Size: 1244
+Maintainer: @termux
+Version: 1:0.161.3049
+Homepage: https://www.videolan.org/developers/x264.html
+Depends: libx264 (= 1:0.161.3049)
+Priority: high
+Section: main
+Filename: pool/main/libx/libx264-static/libx264-static_0.161.3049_arm.deb
+Size: 400014
+SHA256: 639c8126b194557a8c93e06c1be709c43472b25cf0b6567e68f8bf29c09d2421
+SHA1: 322ae10b30082fd73fa61776ddf6e8a903574f09
+MD5sum: 45a87ac031b1633c6ff6a3dd2c6347dd
+Description: Static libraries for libx264
 
 Package: libxau
 Architecture: arm
@@ -2991,6 +3427,22 @@ SHA1: 2834a8c3a4154115dd06543d51a90714f3bac9df
 MD5sum: 4befc64462245b4cd5e0b3f4be96b8b9
 Description: Library for reading, creating, and modifying zip archives
 
+Package: lua52
+Architecture: arm
+Installed-Size: 208
+Maintainer: @termux
+Version: 5.2.4-5
+Homepage: https://www.lua.org
+Depends: readline, liblua52 (= 5.2.4-5)
+Priority: high
+Section: main
+Filename: pool/main/l/lua52/lua52_5.2.4-5_arm.deb
+Size: 71362
+SHA256: f55b11c72632b9a0c000593ac672b5f59bd49e00c31c6bc9cc267714d1188955
+SHA1: dae62ca1434100df0e6a20b0a6ea0d3b7c44e9b3
+MD5sum: 7cc8ef807a44ed9eff5b544eb360d19f
+Description: Simple, extensible, embeddable programming language
+
 Package: lua53
 Architecture: arm
 Installed-Size: 236
@@ -3040,6 +3492,22 @@ SHA256: 8d53687f8226d0ed4c7b8614531af434ff93e916c2538575a435c6e9c3cc09f4
 SHA1: f4e8385f1409f77e5f4689ee05ce3d958b74a446
 MD5sum: 94c51cdfcee1ca5b8b261a70f7654e32
 Description: Fast LZ compression algorithm tool
+
+Package: mpv
+Architecture: arm
+Installed-Size: 2796
+Maintainer: @termux
+Version: 0.33.1
+Homepage: https://mpv.io/
+Depends: ffmpeg, libandroid-glob, libandroid-support, libarchive, libcaca, libiconv, liblua52, pulseaudio, openal-soft, zlib
+Priority: high
+Section: main
+Filename: pool/main/m/mpv/mpv_0.33.1_arm.deb
+Size: 667140
+SHA256: 2a7b2be95dc5abf0faa929942da2d6425b538e39f71e172dab259be7b2e18e57
+SHA1: 769bad4f4bd7039210de260a13bd42d596aff7e1
+MD5sum: 74480195cd7d7a456030c5d68172e427
+Description: Command-line media player
 
 Package: nano
 Architecture: arm
@@ -3187,6 +3655,23 @@ SHA256: 28669ef2181ac2ae5c8de0aaca4d005757bfbc1500c6804917c8f1f9507590c5
 SHA1: 452896aaaf676b651f8e8d4857b2c1f4ae9a5b51
 MD5sum: 5e74c423c8d75bdd70b76a279d1e7b05
 Description: Static libraries for oniguruma
+
+Package: openal-soft
+Architecture: arm
+Installed-Size: 916
+Maintainer: @termux
+Version: 1.21.1
+Homepage: https://openal-soft.org/
+Breaks: openal-soft-dev
+Replaces: openal-soft-dev
+Priority: high
+Section: main
+Filename: pool/main/o/openal-soft/openal-soft_1.21.1_arm.deb
+Size: 338688
+SHA256: 5c4a8e72afc2751c250e9d8c28bfea17d6b9451df8ecfb92137cddc84dd6aa97
+SHA1: 8ab7e7a9fcc0fb7e2b2e79626b441eae157427fb
+MD5sum: dc05575b8e04d69a7aaf7ad28dae21e9
+Description: Software implementation of the OpenAL API
 
 Package: openssl
 Architecture: arm
@@ -3402,6 +3887,22 @@ SHA256: 390b1f84892d2f3a9693726b184c09ad34a1781ae75a32525de57dd477cdea69
 SHA1: 172b0861ca29818cd2f470417b8bbdb77082b496
 MD5sum: 7616d6f26db3862c8ed4a1f2bd44b334
 Description: Dialog allowing secure password entry
+
+Package: play-audio
+Architecture: arm
+Installed-Size: 20
+Maintainer: @termux
+Version: 0.5-4
+Homepage: https://github.com/termux/play-audio
+Depends: libc++
+Priority: high
+Section: main
+Filename: pool/main/p/play-audio/play-audio_0.5-4_arm.deb
+Size: 4186
+SHA256: 31569ae3e74ea4914a7aab632168d603fb1a8ef17b984849c5b75a954beb61d0
+SHA1: 1c1062737fbc0a58c6f5e2dca4e2fec5858cc9ba
+MD5sum: af1f91b85ca7dd2e23e1a5de1a9a2841
+Description: Simple command line audio player for Android
 
 Package: postgresql
 Architecture: arm
@@ -3654,6 +4155,24 @@ SHA1: e404f480d7f131cc779a8dab692eef77f69ce991
 MD5sum: c1d25dedfb9d38179d3c12f25b4fcff4
 Description: Powerful but easy to learn dynamic programming language
 
+Package: termux-auth
+Architecture: arm
+Installed-Size: 36
+Maintainer: Leonid Pliushch <leonid.pliushch@gmail.com>
+Version: 1.4
+Homepage: https://github.com/termux/termux-auth
+Breaks: termux-auth-dev
+Depends: openssl
+Replaces: termux-auth-dev
+Priority: high
+Section: main
+Filename: pool/main/t/termux-auth/termux-auth_1.4_arm.deb
+Size: 5996
+SHA256: 491633c90cb1c97661556b347cf673b6af2d4ee9205b046cb030f38d0995fbf2
+SHA1: c0a29bf3c5901b82fba10a8f9ab44ca85a4fcecf
+MD5sum: d3561438b58cd704c7ee442d1795fcf0
+Description: Password authentication library and utility for Termux
+
 Package: termux-elf-cleaner
 Architecture: arm
 Installed-Size: 24
@@ -3885,6 +4404,22 @@ SHA1: 90d32ac564c63609726350633cd8dd197d28f239
 MD5sum: a5fb6214d70c2ce74e148b1b6de252f1
 Description: Vi IMproved - Runtime files
 
+Package: x264
+Architecture: arm
+Installed-Size: 940
+Maintainer: @termux
+Version: 1:0.161.3049
+Homepage: https://www.videolan.org/developers/x264.html
+Depends: libx264 (= 1:0.161.3049)
+Priority: high
+Section: main
+Filename: pool/main/x/x264/x264_0.161.3049_arm.deb
+Size: 386496
+SHA256: 0a593756856ce640672112afe1f0e7c2e66ae1655c54908b24196c2ed0ed2b91
+SHA1: b6a65ed2b58c341a2a303726578b400a08a4ef5f
+MD5sum: 5a97c8d68c54b0b53d0e79f59a73aec5
+Description: Commandline video encoder for the H.264/MPEG-4 AVC format
+
 Package: xcb-proto
 Architecture: all
 Installed-Size: 816
@@ -3965,6 +4500,39 @@ SHA256: a719c1e8b15b6f13409604e9585462253bb4366fdc55d4715fc8835c431b8ce0
 SHA1: 064e6403674ff14ffb14279043f2ae1c63c08696
 MD5sum: b9de4ad7f0b1dea3c795c4c8fdabbf20
 Description: X transport library
+
+Package: xvidcore
+Architecture: arm
+Installed-Size: 312
+Maintainer: @termux
+Version: 1.3.7
+Homepage: https://www.xvid.com/
+Breaks: xvidcore-dev
+Replaces: xvidcore-dev
+Priority: high
+Section: main
+Filename: pool/main/x/xvidcore/xvidcore_1.3.7_arm.deb
+Size: 131342
+SHA256: 48d45b97ea1ea79fb8266ceea390cebc0b86f837bad24436111824860fe984ad
+SHA1: 4cb7ea85198b09a6bdd636f21527f6ecf5d18baf
+MD5sum: ec68e8cdac9955796da463d0e40516da
+Description: High performance and high quality MPEG-4 library
+
+Package: xvidcore-static
+Architecture: arm
+Installed-Size: 372
+Maintainer: @termux
+Version: 1.3.7
+Homepage: https://www.xvid.com/
+Depends: xvidcore (= 1.3.7)
+Priority: high
+Section: main
+Filename: pool/main/x/xvidcore-static/xvidcore-static_1.3.7_arm.deb
+Size: 138576
+SHA256: 2933115dab477a8a631250f1fa4e8d8ba5a9cd0a4156bded748c2152632dc721
+SHA1: 6f118fd5c0ef5363e739386aa51f543733db8dd2
+MD5sum: 39bc72c9a6bdfd32a9b592063c2eac3e
+Description: Static libraries for xvidcore
 
 Package: xxhash
 Architecture: arm
