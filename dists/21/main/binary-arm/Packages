@@ -405,25 +405,6 @@ SHA1: a53e92afd08849a81b9865b90c5e3ca683457d89
 MD5sum: 3a4cb72f6f9ca3308f898a6d7b2de84d
 Description: Extensible, customizable text editor-and more
 
-Package: ffmpeg
-Architecture: arm
-Installed-Size: 17612
-Maintainer: @termux
-Version: 4.4
-Homepage: https://ffmpeg.org
-Breaks: ffmpeg-dev
-Depends: libass, libbz2, libdav1d, libiconv, libsoxr, libx264, libx265, xvidcore, libvorbis, libmp3lame, libopus, libvpx, libgnutls, libandroid-glob, freetype, zlib, liblzma, libvidstab, libwebp
-Conflicts: libav
-Replaces: ffmpeg-dev
-Priority: high
-Section: main
-Filename: pool/main/f/ffmpeg/ffmpeg_4.4_arm.deb
-Size: 8023578
-SHA256: 5140fc5722baa18891ddce6c23a380261016110ffeab11b60107ccfe2d139aa2
-SHA1: 8413f5585d4cf1584d2f586ca4fe29718eccf2c8
-MD5sum: 6114669e5f3d186daa26221663ed7098
-Description: Tools and libraries to manipulate a wide range of multimedia formats and protocols
-
 Package: findutils
 Architecture: arm
 Installed-Size: 684
@@ -3492,6 +3473,22 @@ SHA256: 8d53687f8226d0ed4c7b8614531af434ff93e916c2538575a435c6e9c3cc09f4
 SHA1: f4e8385f1409f77e5f4689ee05ce3d958b74a446
 MD5sum: 94c51cdfcee1ca5b8b261a70f7654e32
 Description: Fast LZ compression algorithm tool
+
+Package: mpv
+Architecture: arm
+Installed-Size: 2796
+Maintainer: @termux
+Version: 0.33.1
+Homepage: https://mpv.io/
+Depends: ffmpeg, libandroid-glob, libandroid-support, libarchive, libcaca, libiconv, liblua52, pulseaudio, openal-soft, zlib
+Priority: high
+Section: main
+Filename: pool/main/m/mpv/mpv_0.33.1_arm.deb
+Size: 667140
+SHA256: 2a7b2be95dc5abf0faa929942da2d6425b538e39f71e172dab259be7b2e18e57
+SHA1: 769bad4f4bd7039210de260a13bd42d596aff7e1
+MD5sum: 74480195cd7d7a456030c5d68172e427
+Description: Command-line media player
 
 Package: nano
 Architecture: arm
